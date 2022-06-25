@@ -21,3 +21,15 @@ app.get("/", (req, res) => {
 app.get("/checkout", (req, res) => {
   res.sendFile(path.resolve(__dirname, "./views/Carrito-de-compras.html"));
 });
+
+app.get("/ingreso"), (req,res) => {
+  res.sendFile(path.resolve(__dirname, "./views/InicioSesion.html"))
+};
+
+app.get("/producto"), (req,res) => {
+  res.sendFile(path.resolve(__dirname, "./views/DetalleProducto.html"))
+};
+
+app.get("/registro"), (req,res) => {
+  res.sendFile(path.resolve(__dirname, "./views/Registro.html"))
+}
