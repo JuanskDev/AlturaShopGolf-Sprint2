@@ -1,0 +1,57 @@
+/* Carrito de Compras */
+
+body {
+    margin: 0;
+}
+
+
+
+.p-header-compras {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+header h1 {
+text-align: center;
+}
+
+
+
+/* ----- */ 
+
+.input-1 {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.div-boton-comprar{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-comprar { 
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+.comprar-texto {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* ----- */
+
+.image-balls {
+    width: 40%;
+}
