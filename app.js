@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/checkout", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "./views/Carrito-de-compras.html"));
+  res.sendFile(path.resolve("./Views/Carrito-de-compras.html"));
 });
 
 app.get("/ingreso"), (req,res) => {

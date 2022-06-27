@@ -4,32 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="https://kit.fontawesome.com/85bef06bdc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/CarritoCompra.css" />
     <title>Golf de Altura Shop</title>
   </head>
   <body>
-    <header>
-      <p class="p-header-compras">ENVIOS GRATIS EN TODAS LAS ORDENES</p>
-      <h1>LOGO</h1>
-      <br />
-    </header>
+    <header></header>
 
     <main>
-      <input
-        class="input-1"
-        type="text"
-        placeholder="Que podemos ayudar a encontrar"
-      />
-      <div class="div-boton-comprar">
-        <button class="boton-comprar">PAGAR</button>
-      </div>
-      <p class="comprar-texto">Seguir Comprando</p>
+<div class="container">
+  <h1> Carrito de Compras</h1>
+  <div class="cart">
+<div class="products">
+  <div class="product">
+    <img src="img/pelotas.jpeg" alt="Pelotas Titleist Pro V1">
+    <div class="product-info">
+      <h3 class="product-name">Product Name</h3>
+      <h2 class="product-price">Product Price</h2>
+      <p class="product-quantity">Quantity <input value="1" name=""></p>
+      <p class="product-remove"> 
+        <i class="fa-regular fa-trash-can"></i>
+        <span class="remove">Remove</span>
+      </p>
+    </div>
+  </div>
+  <div class="product">
+    <img src="img/pelotas.jpeg" alt="Pelotas Titleist Pro V1">
+    <div class="product-info">
+      <h3 class="product-name">Product Name</h3>
+      <h2 class="product-price">Product Price</h2>
+      <p class="product-quantity">Quantity <input value="1" name=""></p>
+      <p class="product-remove"> 
+        <i class="fa-regular fa-trash-can"></i>
+        <span class="remove">Remove</span>
+      </p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
     
-       <div class="image-div">
-        <img class="image-balls" src="/img/pelotas.jpeg" alt="">
-
-       </div>
+        
+      
     
     </main>
+
+    <footer>
+
+      <button type="submit" value="comprar" class="button">Comprar ahora</button>
+      <p class="comprar-texto">Seguir Comprando</p>
+      
+      <article class="articulo">
+      <div class="img-titulo-precio">
+      <img class="contenedor-imagenes" src="img/pelotas.jpeg" width=360 alt="Pelotas Golf">
+    <span class="marca-producto">Titleist</span><br>
+      <span class="nombre-producto"><strong>CAJA 6 PELOTAS TITLEIST PRO V1</strong></span><br>
+      <i class="fa-solid fa-cart-arrow-up"></i>
+      </div>
+      </article>
+
+
+
+    </footer>
   </body>
 </html>
