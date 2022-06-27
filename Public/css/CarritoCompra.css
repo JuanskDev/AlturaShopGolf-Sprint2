@@ -51,6 +51,7 @@ body {
     height: 180px;
     overflow: hidden;
     border: 1px solid silver;
+    margin-bottom: 2px;
 }
 .product:hover {
 border: none ;
@@ -59,11 +60,14 @@ transform: scale(1.01);
 }
 
 .product img {
+    image-resolution: initial;
+   min-width: 139px;
     width: 50%;
     height: 50%;
     object-fit: cover;
 }
-.product > img:hover {
+
+.product  img:hover {
     transform: scale(1.04);
 }
 
@@ -97,4 +101,16 @@ border: 1px solid green;
 .product-quantity input {
 width: 10%;
 text-align: center;
+}
+
+.cart-total {
+   border: 1px solid silver;
+}
+
+.cart-total span{
+    margin-left: 20px;
+}
+
+.cart-total .span-1 {
+    padding-left: 67px;
 }
