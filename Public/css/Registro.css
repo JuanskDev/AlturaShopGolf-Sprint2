@@ -1,16 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
+ 
 }
 a {
   color: black;
   font-size: 15px;
   text-decoration: none;
 }
+.devolucion {
+  color: red;
+  font-size: 15px;
+  text-align: center;
+  }
+  .argentina img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+.iconos-compra-location {
+  display: flex;
+  align-items: center;
+}
+.iconos-compra-location i {
+  font-size: 30px;
+  margin-right: 5px;
+}
+.iconos-compra-location span {
+  display: flex;
+  margin-right: 15px;
+}
+.descuentos {
+  width: 100%;
+  padding-top:5px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: #71e328;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+}
+/* .compra i {
+  
+}
+.location {
+  display: flex;
+  align-items: center;
+}
+.location i{
+  font-size: 30px;
+  margin-right: 5px;
+} */
 
 header {
   position: relative;
@@ -22,32 +66,24 @@ header {
   justify-content: space-between;
   align-items: center;
   color: black;
-  padding: 20px;
+  padding: 30px;
+  
 }
 .ocultar {
   display: none;
 }
-header .item-flex {
-
-}
 /** Estilo Logo*/
 header .logo img {
-  max-width: 500px;
+  max-width: 150px;
   width: 100%;
-}
-header .btn-menu {
-  
-}
-header #menu-mobile {
-  
-}
+  }
 header #menu-mobile ul {
   position: absolute;
   background-color: #71e328;
   list-style: none;
   flex-direction: column;
-  left: 20px;
-  top: 95px;
+  left: 29px;
+  top: 106px;
   border-radius: 5px;
 }
 header .btn-menu span.fa {
@@ -70,32 +106,35 @@ header .buscador {
   position: relative;
 }
 header .buscador input {
-  width: 450px;
+  width: 395px;
   padding: 5px 15px 10px 15px;
   height: auto;
   transition: all 0.6s ease;
   color: grey;
   border-radius: 50px;
-  font-size: 20px;
-  border: 1px solid #e2e2e2;
+  font-size: 15px;
+  border: 0.5px solid #e2e2e2;
 }
 header .buscador .btn {
   position: absolute;
-  width: 43px;
-  height: 43px;
+  width: 40px;
+  height: 36;
   background: #71e328;
   border-radius: 50%;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
   text-align: center;
   cursor: pointer;
   transition: 0.6s;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 0px;
 }
 header .buscador .btn i {
-  font-size: 25px;
+  font-size: 16px;
   color: white;
-  line-height: 45px;
-  transition: all 0.6s ease;
+  line-height: 37px;
+  align-items: center;
+
 }
 
 .container {
@@ -136,11 +175,10 @@ header .buscador .btn i {
   background: black;
   padding: 0px 600px;
 }
-.registrarse{
+.registrarse {
   font-size: 35px;
   color: black;
   font-weight: 400;
-  
 }
 
 .contenedor {
@@ -154,10 +192,10 @@ header .buscador .btn i {
 }
 .contenedor .titulo {
   background-color: black;
-    padding: 20px;
-    width: 100%;
-    color: white;
-    text-align: center;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 .contenedor .fila {
   max-width: 40%;
@@ -165,16 +203,18 @@ header .buscador .btn i {
 }
 .contenedor input.input-form {
   width: 100%;
-  font-size: 20px;
+  font-size: 25px;
   padding: 15px;
   color: black;
   border-radius: 5px;
 }
 .contenedor input.check-form {
-  width: 30px;
+  width: 40px;
   height: 30px;
   float: left;
+  margin-right: 5px;
 }
+
 #crear-cuenta {
   padding: 15px 20px 15px 20px;
   font-size: 15px;
@@ -182,4 +222,12 @@ header .buscador .btn i {
   border-radius: 50px;
   width: 60%;
   border: none;
+}
+
+
+@media (max-width: 600px) {
+  header .logo {
+    width: 100%;
+    text-align: center;
+  }
 }
