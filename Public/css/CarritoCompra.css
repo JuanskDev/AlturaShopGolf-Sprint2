@@ -7,7 +7,13 @@ body {
     margin: 0;
 
 }
-a {
+
+
+.body-header {
+    width: 100%;
+  }
+
+  a {
     color: black;
     font-size: 15px;
     text-decoration: none;
@@ -33,7 +39,7 @@ a {
   }
   .iconos-compra-location span {
     display: flex;
-    margin-right: 15px;
+    margin-left: 15px;
   }
   .descuentos {
     width: 100%;
@@ -104,9 +110,11 @@ a {
   }
   header .buscador {
     position: relative;
+    margin: auto;
   }
   header .buscador input {
-    width: 400px;
+    width: 100%;
+    min-width: 300px;
     padding: 5px 15px 10px 15px;
     height: auto;
     transition: all 0.6s ease;
@@ -134,6 +142,16 @@ a {
     color: white;
     line-height: 37px;
     align-items: center;
+  }
+
+  .Compra-item-flex {
+    width: 100%;
+    margin: 20px 10px;
+    color: red;
+    text-align: center;
+    font-size: 17px;
+  }
+
 
 /* MAIN  */ 
 
