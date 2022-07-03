@@ -125,30 +125,23 @@ text-align: center;
 .recommendation-carousel {
     width: 90%;
     margin: auto;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .h2-recommendation {
     font-size: 20px;
     font-weight: 300;
+    padding-bottom: 15px;
+
 }
 
-.carousel-mobile {
-    overflow-y: hidden;
-    overflow-x: auto;
-}
-
-.carousel-mobile li {
-    width: 180px;
-}
 
 .mobile-carousel-list-element {
-    display: table-cell;
-    
+   
     border: 1px silver solid;
   border-collapse: separate;
-    
+  
+    margin: 0 2px ;
 }
 
 .hr-bot-con {
@@ -159,12 +152,15 @@ text-align: center;
 
 ul {
     padding: 0;
-
+    display: flex;
+   list-style: none;
 }
+
+
 
 .carousel-image {
     width: 100%;
-    height: 100%;
+    height: 50%;
     min-height: 178px;
 } 
 .bc-product-price , .bc-product-name {

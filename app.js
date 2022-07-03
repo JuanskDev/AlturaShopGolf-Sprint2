@@ -1,35 +1,30 @@
-const express = require("express");
-const path = require("path");
-
+const express = require('express');
 const app = express();
-
 app.use(express.static('public'));
 
 
-app.listen(3030, () => {
-  console.log("Servidor Corriendo en Puerto 3030");
+app.listen(3030, ()=>{
+    console.log('Servidor funcionando');
 });
 
-
-
-// RUTAS  - - --  -- - - - - - - -- -- - - - - 
-
-app.get("/", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "./views/home.html"));
+app.get('/', (req,res)=>{
+    res.sendFile(__dirname + '/views/home.html');
 });
-
-app.get("/checkout", (req, res) => {
-  res.sendFile(path.resolve("./Views/Carrito-de-compras.html"));
+app.get('/carrito-de-compras', (req,res)=>{
+    res.sendFile(__dirname + '/views/carrito-de-compras.html');
 });
-
-app.get("/ingreso"), (req,res) => {
-  res.sendFile(path.resolve(__dirname, "./views/InicioSesion.html"))
-};
-
-app.get("/producto"), (req,res) => {
-  res.sendFile(path.resolve(__dirname, "./views/DetalleProducto.html"))
-};
-
-app.get("/registro"), (req,res) => {
-  res.sendFile(path.resolve(__dirname, "./views/Registro.html"))
-}
+app.get('/detalleproducto', (req,res)=>{
+    res.sendFile(__dirname + '/views/detalleproducto.html');
+});
+app.get('/footer', (req,res)=>{
+    res.sendFile(__dirname + '/views/footer.html');
+});
+app.get('/header', (req,res)=>{
+    res.sendFile(__dirname + '/views/header.html');
+});
+app.get('/iniciosecion', (req,res)=>{
+    res.sendFile(__dirname + '/views/iniciosecion.html');
+});
+app.get('/registro', (req,res)=>{
+    res.sendFile(__dirname + '/views/registro.html');
+});
