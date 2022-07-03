@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Css/style.css" />
+    <link rel="stylesheet" href="css/registro.css"/>
         <title>Golf de Altura Store</title>
-    <link rel="icon" type="imagen/png" href="/img/Logo2.png" />
+    <link rel="icon" type="imagen/png" href="/img/Logo1.png" />
     <script src="https://kit.fontawesome.com/a73919cff6.js" crossorigin="anonymous"></script>
     <script src="/js/scripts.js"></script>
   </head>
  
   <body>
-    <div class="descuentos">Descuentos en compras mayores a $18.000 con envío gratuito</div>
+    <div class="descuentos">Descuentos en compras mayores a $10.000 con envío gratuito</div>
       <header>
           <div class="btn-menu">
             <button type="button" onclick="mostrarMenu()" class="item-flex">
@@ -107,40 +107,57 @@
       <h2>HOME / MI CUENTA</h2>
     </div>
           
-      <br />
-      <div class="registrarse"><p>REGISTRARSE</p></div>
-      <br>
-        <div class="fila">
-        <label>Nombre de usuario*</label>
-        <input type="text" id="usuario" class="input-form" />
-      </div>
-      <br />
+    <br />
+    <div class="registrarse"><p>REGISTRARSE</p></div>
+    <br>
       <div class="fila">
-        <label>Dirección de correo*</label>
-        <input type="text" id="email" class="input-form" />
-      </div>
-      <br />
+      <label>Nombre/s*</label>
+      <input type="text" id="nombre" class="input-form" />
+    </div>
+    <br>
       <div class="fila">
-        <label>Contraseña*</label>
-        <input type="text" id="password" class="input-form" />
-      </div>
-      <br />
-      <div class="fila">
-        <label>Confirmar contraseña*</label>
-        <input type="text" id="confirmar-password" class="input-form" />
-      </div>
-      <br />
-      <div class="fila">
-        <input type="checkbox" id="terminos" class="check-form" />
-        <span>*Acepto términos y condiciones. Políticas de seguridad...</span>
-      </div>
-      <br />
-      <br />
-      <div class="fila" style="text-align: center;">
-          <button type="button" id="crear-cuenta">CREAR CUENTA</button>
-      </div>
-    </section>
+      <label>Apellido/s*</label>
+      <input type="text" id="apellido" class="input-form" />
+    </div>
+    <br>
+    <div class="fila">
+      <label>Dirección de correo*</label>
+      <input type="text" id="email" class="input-form" />
+    </div>
+    <br>
+    <div class="fila">
+      <label>Confirmación de correo*</label>
+      <input type="text" id="confirm-email" class="input-form" />
+    </div>
+    <br>
+    <div class="fila">
+      <label>Numero de Telefono*</label>
+      <input type="number" id="phone-number" class="input-form"/>
+      <label class="fila" style="font-size: 15px; color: gray;" >Ej: 333-3333333 (sin 0 y 15).</label>
+    </div>
+    <br />
+    <div class="fila">
+      <label>Contraseña*</label>
+      <input type="password" id="password" class="input-form" />
+    </div>
+    <br />
+    <div class="fila">
+      <label>Confirmar contraseña*</label>
+      <input type="password" id="confirmar-password" class="input-form" />
+    </div>
+    <br />
+    <div class="fila">
+      <input type="checkbox" id="terminos" class="check-form" />
+      <span>*Al marcar esta casilla y crear una cuenta, acepto los Términos de uso y la Política de privacidad . Ordeno a GOLF DE ALTURA Store que comparta mi información con AAG (Asociación Argentina de Golf) y acepto los Términos y la Política de privacidad de AAG.</span>
+    </div>
+    <br />
+    <br />
+    <div class="fila" style="text-align: center;">
+        <button type="sumbit" id="crear-cuenta">CREAR CUENTA</button>
+    </div>
+  </section>
   </body>
 
   <footer class="content-footer"></footer>
+  
 </html>
