@@ -1,11 +1,4 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans';
-  }
-  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
 
   * {
     margin: 0;
@@ -56,18 +49,7 @@
     font-size: 25px;
     font-weight: 500;
   }
-  /* .compra i {
-    
-  }
-  .location {
-    display: flex;
-    align-items: center;
-  }
-  .location i{
-    font-size: 30px;
-    margin-right: 5px;
-  } */
-  
+
   header {
     position: relative;
     width: 100%;
@@ -98,6 +80,12 @@
     border-radius: 5px;
     opacity: 75%;
   }
+
+  header .btn-menu,  .logo , .iconos-compra-location {
+    width: 25%;
+  }
+
+ 
   header .btn-menu span.fa {
     color: #dc3b41;
     font-size: 40px;
@@ -155,4 +143,8 @@
     color: red;
     text-align: center;
     font-size: 17px;
+  }
+
+  @media (min-width: 420px) {
+
   }
