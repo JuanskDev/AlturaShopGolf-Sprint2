@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Login</title>
+    <link rel="stylesheet" href="/css2/Style.css">
+    <title>Golf de Altura Store</title>
+    <link rel="icon" type="imagen/png" href="/AlturaShopGolf-Sprint2/Public/img/logo-header.png" />
+    <script src="https://kit.fontawesome.com/ab8c6f57f5.js" crossorigin="anonymous"></script>
+    <script src="/AlturaShopGolf-Sprint2/Public/js/"></script>
+    <script src="/app.js"></script>
+  </head>
+</head>
+<body>
+    <div class="descuentos">Descuentos en compras mayores a $18.000 con envío gratuito</div>
+    <header>
+        <div class="btn-menu">
+          <button type="button" onclick="mostrarMenu()" class="item-flex">
+            <span class="fa fa-bars"></span>
+          </button>
+        </div>
+        <nav id="menu-mobile" class="ocultar">
+          <ul>
+            <li><a href="">ACCESORIOS</a></li> 
+            
+            <li>
+              <a href="">BOLSAS Y CARROS</a>
+              <ul class="ocultar">
+                <li><a href="">BOLSAS</a></li>
+                <li><a href="">CARROS</a></li>
+              </ul>
+            </li>
+            
+            <li>
+              <a href="">CAMPOS</a>
+              <ul class="ocultar">
+                <li><a href="">ESTANCIAS DE CAFAYATE GOLF CLUB</a></li>
+                <li><a href="">TERMAS DE RIO HONDO GOLF CLUB</a></li>
+                <li><a href="">CARILO GOLF CLUB</a></li>
+                <li><a href="">LLAO LLAO GOLF CLUB</a></li>
+                <li><a href="">VILLA ALLENDE GOLF CLUB</a></li>
+              </ul>
+            </li>
+            
+            <li><a href="">GORRAS</a></li>
+            
+            <li>
+              <a href="">PALOS</a>
+              <ul class="ocultar">
+                <li><a href="">DRIVE</a></li>
+                <li><a href="">MADERAS</a></li>
+                <li><a href="">HIBRIDOS</a></li>
+                <li><a href="">HIERROS</a></li>
+                <li><a href="">PUTTERS</a></li>
+                <li><a href="">WEDGES</a></li>
+              </ul>
+            </li>
+
+            <li><a href="">PELOTAS</a></li>
+
+            <li>
+              <a href="">TECNOLOGIA</a>
+              <ul class="ocultar">
+                <li><a href="">GPS</a></li>
+                <li><a href="">SMARTWACHT</a></li>
+                <li><a href="">TELEMETROS</a></li>
+              </ul>
+            </li>
+            
+            <li>
+              <a href="">VESTIR</a>
+              <ul class="ocultar">
+                <li><a href="">ROPA DE HOMBRE</a></li>
+                <li><a href="">
+                  ROPA DE MUJER</a></li>
+              </ul>
+              <li><a href="">ZAPATOS</a></li>
+            </li>
+          </ul>
+        </nav>
+
+            <div class="buscador item-flex">
+             <input type="text" placeholder="¿Que podemos ayudarte a encontrar?">
+             <div class="btn">
+              <i class="fa fa-search"></i>
+              </div>
+        </div>
+        <div class="devolucion">
+          <p>Devoluciones gratuitas y garantía</p>
+          <p>en la devolución de su dinero</p>
+        </div>
+        
+        <div class="iconos-compra-location">
+          <span class="argentina"><img src="/AlturaShopGolf-Sprint2/Public/img/argentina.png" alt="pais"> Argentina</span>
+          <span><i class="fa fa-location-dot"></i> Ubicación</span>
+          <span><i class ="fa fa-cart-shopping"></i> 0</span>  
+        </div>
+    </header>
+<div class="login-box">
+    <img class="avatar" src="/AlturaShopGolf-Sprint2/img/Golf de altura store2.png" alt="Logo Golf">
+    <h1>Acceso a su cuenta</h1>
+    <form>
+        <!-- USUARIO -->
+        <label for="usuario">Usuario</label>
+        <input type="text" placeholder="Ingrese su usuario">
+
+        <!-- CONTRASEÑA -->
+        <label for="contraseña">Contraseña</label>
+        <input type="password" placeholder="Ingrese su contraseña"><br>
+
+        <input type="submit" value="Log In"><br>
+
+        <a href="#">¿Olvido su contraseña?</a><br>
+        <a href="#">¿No tiene cuenta?</a>
+
+    </form>
+</div>
+
+</body>
+</html>
