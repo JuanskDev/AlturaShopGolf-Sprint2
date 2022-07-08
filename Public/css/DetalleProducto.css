@@ -147,6 +147,7 @@
 
   .menu-detalle-producto{
     position: absolute;
+    justify-content: center;
     align-items: center;
     font-size: 15px;
     color: #000000;
