@@ -145,6 +145,27 @@
     font-size: 17px;
   }
 
+  .menu-detalle-producto{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #000000;
+  }
+  .imagen-primaria{
+  
+    align-items: center;
+    border: 1px silver solid;
+    border-collapse: separate;
+  }
+  .other-img-products{
+       
+    border: 1px silver solid;
+  border-collapse: separate;
+  
+    margin: 0 2px ;
+  }
+
   @media (min-width: 420px) {
 
   }
