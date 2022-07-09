@@ -22,8 +22,8 @@ app.get('/footer', (req,res)=>{
 app.get('/header', (req,res)=>{
     res.sendFile(__dirname + '/views/header.html');
 });
-app.get('/iniciosecion', (req,res)=>{
-    res.sendFile(__dirname + '/views/iniciosecion.html');
+app.get('/iniciosesion', (req,res)=>{
+    res.sendFile(__dirname + '/views/iniciosesion.html');
 });
 app.get('/registro', (req,res)=>{
     res.sendFile(__dirname + '/views/registro.html');
