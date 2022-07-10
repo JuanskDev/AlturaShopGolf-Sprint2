@@ -14,109 +14,164 @@
   </head>
 </head>
 <body>
-    <div class="descuentos">Descuentos en compras mayores a $18.000 con envío gratuito</div>
     <header>
-        <div class="btn-menu">
-          <button type="button" onclick="mostrarMenu()" class="item-flex">
-            <span class="fa fa-bars"></span>
-          </button>
+      <div class="btn-menu">
+        <button type="button" onclick="mostrarMenu()" class="item-flex">
+          <span class="fa fa-bars"></span>
+        </button>
+      </div>
+      <nav id="menu-mobile" class="ocultar">
+        <ul>
+          <li><a href="">ACCESORIOS</a></li> 
+          
+          <li>
+            <a href="">BOLSAS Y CARROS</a>
+            <ul class="ocultar">
+              <li><a href="">BOLSAS</a></li>
+              <li><a href="">CARROS</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="">CAMPOS</a>
+            <ul class="ocultar">
+              <li><a href="">ESTANCIAS DE CAFAYATE GOLF CLUB</a></li>
+              <li><a href="">TERMAS DE RIO HONDO GOLF CLUB</a></li>
+              <li><a href="">CARILO GOLF CLUB</a></li>
+              <li><a href="">LLAO LLAO GOLF CLUB</a></li>
+              <li><a href="">VILLA ALLENDE GOLF CLUB</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="">GORRAS</a></li>
+          
+          <li>
+            <a href="">PALOS</a>
+            <ul class="ocultar">
+              <li><a href="">DRIVE</a></li>
+              <li><a href="">MADERAS</a></li>
+              <li><a href="">HIBRIDOS</a></li>
+              <li><a href="">HIERROS</a></li>
+              <li><a href="">PUTTERS</a></li>
+              <li><a href="">WEDGES</a></li>
+            </ul>
+          </li>
+  
+          <li><a href="">PELOTAS</a></li>
+  
+          <li>
+            <a href="">TECNOLOGIA</a>
+            <ul class="ocultar">
+              <li><a href="">GPS</a></li>
+              <li><a href="">SMARTWACHT</a></li>
+              <li><a href="">TELEMETROS</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="">VESTIR</a>
+            <ul class="ocultar">
+              <li><a href="">ROPA DE HOMBRE</a></li>
+              <li><a href="">
+                ROPA DE MUJER</a></li>
+            </ul>
+            <li><a href="">ZAPATOS</a></li>
+          </li>
+        </ul>
+      </nav>
+      <div class="logo item-flex">
+        <img src="/Img/logo-header.png" alt="Golf de Altura Store"/>
+      </div>
+      <div class="iconos-compra-location">
+    
+        <span><i class="fa fa-location-dot"></i> </span>
+        <span><i class ="fa fa-cart-shopping"></i></span>  
+      </div>
+      <div class="buscador item-flex">
+        <input type="text" placeholder="¿Que podemos ayudarte a encontrar?">
+        <div class="btn">
+          <i class="fa fa-search"></i>
         </div>
-        <nav id="menu-mobile" class="ocultar">
-          <ul>
-            <li><a href="">ACCESORIOS</a></li> 
-            
-            <li>
-              <a href="">BOLSAS Y CARROS</a>
-              <ul class="ocultar">
-                <li><a href="">BOLSAS</a></li>
-                <li><a href="">CARROS</a></li>
-              </ul>
-            </li>
-            
-            <li>
-              <a href="">CAMPOS</a>
-              <ul class="ocultar">
-                <li><a href="">ESTANCIAS DE CAFAYATE GOLF CLUB</a></li>
-                <li><a href="">TERMAS DE RIO HONDO GOLF CLUB</a></li>
-                <li><a href="">CARILO GOLF CLUB</a></li>
-                <li><a href="">LLAO LLAO GOLF CLUB</a></li>
-                <li><a href="">VILLA ALLENDE GOLF CLUB</a></li>
-              </ul>
-            </li>
-            
-            <li><a href="">GORRAS</a></li>
-            
-            <li>
-              <a href="">PALOS</a>
-              <ul class="ocultar">
-                <li><a href="">DRIVE</a></li>
-                <li><a href="">MADERAS</a></li>
-                <li><a href="">HIBRIDOS</a></li>
-                <li><a href="">HIERROS</a></li>
-                <li><a href="">PUTTERS</a></li>
-                <li><a href="">WEDGES</a></li>
-              </ul>
-            </li>
-
-            <li><a href="">PELOTAS</a></li>
-
-            <li>
-              <a href="">TECNOLOGIA</a>
-              <ul class="ocultar">
-                <li><a href="">GPS</a></li>
-                <li><a href="">SMARTWACHT</a></li>
-                <li><a href="">TELEMETROS</a></li>
-              </ul>
-            </li>
-            
-            <li>
-              <a href="">VESTIR</a>
-              <ul class="ocultar">
-                <li><a href="">ROPA DE HOMBRE</a></li>
-                <li><a href="">
-                  ROPA DE MUJER</a></li>
-              </ul>
-              <li><a href="">ZAPATOS</a></li>
-            </li>
-          </ul>
-        </nav>
-
-            <div class="buscador item-flex">
-             <input type="text" placeholder="¿Que podemos ayudarte a encontrar?">
-             <div class="btn">
-              <i class="fa fa-search"></i>
-              </div>
-        </div>
-        <div class="devolucion">
-          <p>Devoluciones gratuitas y garantía</p>
-          <p>en la devolución de su dinero</p>
+      </div>
+      <div class="Compra-item-flex">
+          <p>Devoluciones gratuitas y garantía en la devolución de su dinero</p>
         </div>
         
-        <div class="iconos-compra-location">
-          <span class="argentina"><img src="/AlturaShopGolf-Sprint2/Public/img/argentina.png" alt="pais"> Argentina</span>
-          <span><i class="fa fa-location-dot"></i> Ubicación</span>
-          <span><i class ="fa fa-cart-shopping"></i> 0</span>  
-        </div>
-    </header>
-<div class="login-box">
-    <img class="avatar" src="/AlturaShopGolf-Sprint2/img/Golf de altura store2.png" alt="Logo Golf">
-    <h1>Acceso a su cuenta</h1>
-    <form>
-        <!-- USUARIO -->
-        <label for="usuario">Usuario</label>
-        <input type="text" placeholder="Ingrese su usuario">
+      </div>
+  </header>
 
-        <!-- CONTRASEÑA -->
-        <label for="contraseña">Contraseña</label>
-        <input type="password" placeholder="Ingrese su contraseña"><br>
+  <main>
 
-        <input type="submit" value="Log In"><br>
-
-        <a href="#">¿Olvido su contraseña?</a><br>
-        <a href="#">¿No tiene cuenta?</a>
-
-    </form>
+<div class="registro-titulo">
+<h1>MI CUENTA</h1>
 </div>
+
+<div class="p-registro">
+  <p>Inicio de Sesion</p>
+</div>
+
+<div class="nombre-usuario">
+<label for="nombre-usuario">Nombre de Usuario:</label>
+<input type="text" name="nombre-usuario" id="nombre-usuario" required>
+</div>
+
+<div class="contraseña-sesion">
+<label for="contraseña">Contraseña</label>
+<input type="password" name="contraseña" id="contraseña">
+</div>
+
+<div class="olvidar-contraseña">
+  <p>Olvido su contraseña?</p>
+</div>
+
+<div class="boton-entrar">
+<button type="submit">Iniciar Sesion</button>
+</div>
+
+
+
+  </main>
+
+<footer>
+  <div class="pie-pagina">
+    <div class="servicio-cliente">
+     <h3>Servicio Cliente</h3>
+     <p>Contactenos 0800-555-2328</p>
+     <p>Preguntas Frecuentes</p>
+     <p>Informacion de envio</p>
+    </div>
+    <div class="servicios">
+        <h3>Servicios</h3>
+        <p>Reparacion</p>
+        <p>Clases</p>
+        <p>Torneos y eventos</p>
+    </div>
+    <div class="informacion-empresa">
+        <h3>Informacion de la Empresa</h3>
+        <p>Sobre Nosotros</p>
+        <p>Nuestro valores</p>
+        <p>Vision y mision</p>
+        <p>Politicas de privacidad</p>
+    </div>
+   <div class="subscripcion">
+    <h3>Subscribite al newsletter</h3>
+     <div>
+        <label for="nombreapellido"> Nombre y Apellido</label>
+        <input type="text" name="nombreapellido" placeholder="Juan Martinez" required >
+    </div>
+    <label for="email-subscripcion"> Email</label><br>
+     <input type="email" name="email-subscripcion"  placeholder="juan.martinez@icloud.com" required>
+   </div>
+    <div class="red-social">
+        <span class="uno"><i href="#"  class="fa fa-facebook"></i></span>  
+        <span class="dos"><i href="#" class="fa fa-instagram"></i></span>
+        <span class="tres"><i href="#" class="fa fa-twitter"></i></span>
+        <span class="cuatro"><i href="#" class="fa fa-youtube"></i></span>
+      </div>
+</div>
+
+    </div>
+</footer>
 
 </body>
 </html>
