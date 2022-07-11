@@ -23,12 +23,9 @@ app.get('/header', (req,res)=>{
     res.sendFile(__dirname + '/views/header.html');
 });
 app.get('/iniciosesion', (req,res)=>{
-<<<<<<< HEAD
     res.sendFile(__dirname + '/views/iniciosesion.html');
-=======
-    res.sendFile(__dirname + '/views/inicioSesion.html');
->>>>>>> 495e4d81a42e0b630a8d6e0cbe5837474aa65749
 });
+
 app.get('/registro', (req,res)=>{
     res.sendFile(__dirname + '/views/registro.html');
 });
