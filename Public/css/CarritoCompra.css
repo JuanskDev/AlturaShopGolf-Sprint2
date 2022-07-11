@@ -265,29 +265,30 @@ ul {
     margin-top: 0;
 }
 /* FOOTER */
+
 div.pie-pagina {
-  background-color: #c6c6c6;
-  opacity: 90%;
+  margin-top: 60px;
+  background-color:#c6c6c6;
+  opacity: 85%;
 }
+
 div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa , .red-social , .subscripcion {
   margin: auto;
   width: 80%;
   text-align: center;
   padding-bottom: 20px;
   font-family: oswald;
-  font-weight: 300;
-  color: white;
+  
 }
 
 div.pie-pagina h3 {
   margin-bottom: 10px;
   font-size: 1.35em;
+  text-decoration: underline;
 }
 
 div.pie-pagina p {
   margin-bottom: 7px;
-  font-family: open sans;
-  color: white;
 }
 
 div.pie-pagina span {
@@ -299,22 +300,26 @@ div.pie-pagina i {
 }
 
 div.pie-pagina span.uno {
-  color:blue
+  color:BLACK
 }
 div.pie-pagina span.dos {
-  color: brown;
+  color: BLACK;
 }
 div.pie-pagina span.tres {
-  color: aqua;
+  color: BLACK;
 }
 div.pie-pagina span.cuatro{
-  color: red;
+  color: BLACK;
 }
 
 div.pie-pagina input {
-  margin: 10px;
-  width: 100%;
-  padding: 7px 20px;
-  border-radius: 5px;
-  border: none;
+margin: 10px;
+width: 100%;
+padding: 7px 20px;
+border-radius: 5px;
+border: none;
+}
+
+@media (min-width: 420px) {
+
 }
