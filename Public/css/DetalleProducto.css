@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Open Sans";
   }
+/*HEADER*/
 
   .body-header {
     width: 100%;
@@ -140,31 +141,248 @@
   .Compra-item-flex {
     width: 100%;
     margin: 20px 10px;
-    color: red;
+    color: #dc3b41;
     text-align: center;
     font-size: 17px;
   }
 
-  .menu-detalle-producto{
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    color: #000000;
-  }
-  div.img-primaria{
-  background-color: #dc3b41;
-    align-items: center;
-    border: 1px silver solid;
-    
-  }
-  .other-img-products{
-       
-    border: 1px silver solid;
-  border-collapse: separate;
+  /*MAIN*/
+nav.menu-detalle-producto{
+  color: #000000;
+  font-size: 15px;  
+  text-decoration: none;
+}
+div.img-primaria{
+  width: 100%;
+  height: 100%;
+  margin-left: 100px;
+}
+div.img-primaria img{
   
-    margin: 0 2px ;
-  }
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+div.img-primaria img:hover{
+transform: scale(1.8);
+}
+div.slider-products{
+  margin-left: 35px;
+  margin-top:-35px;
+  
+}
+img.img3{
+  border: 0.2px solid #dc3b41;
+  border-radius: 50px;
+  align-items: center;
+}
+img.img0{
+  border: 0.2px solid #dc3b41;
+  border-radius: 50px;
+  align-items: center;
+}
+img.img{
+  border: 0.2px solid #dc3b41;
+  border-radius: 50px;
+  align-items: center;
+}
+img.img1{
+  border: 0.2px solid #dc3b41;
+  border-radius: 50px;
+  align-items: center;
+}
+button.next-img{
+    margin-top: -50px;
+    margin-bottom: -45px;
+    margin-left: 340px;
+    border: none;
+    color: #dc3b41;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+}
+button.prev-img{
+  margin-left: -20px;
+  margin-bottom: -40px;
+  border: none;
+  color: #dc3b41;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: white;
+}
+.product-name h2{
+  margin-top: 70px;
+  font-family: oswald;
+  margin-left: 35px;
+  align-items: center;
+  justify-content: center;
+}
+div.fila0{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3.antes{
+  color: silver;
+  text-decoration: line-through;
+}
+h3.ahora{
+  color: #dc3b41
+}
+div.fila0 h6{
+  margin-left: 10px;
+  color: #dc3b41;
+}
+div.fila label{
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: oswald;
+  font-weight: 600
+  
+}
+div.fila input{
+  border: 0.2px solid #dc3b41;
+  border-radius: 5px;
+  width: 165px;
+  margin-left: 15px;
+}
+div.fila label a{
+  display: flex;
+  font-size: 9px;
+  color: #0854e0;
+  border-radius: 5px;
+  width: 165px;
+  margin-left: 90px;
+  text-decoration: underline;
+}
+div.fila2 label{
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: oswald;
+  font-weight: 600
+}
+div.fila2 input{
+  border: 0.2px solid #dc3b41;
+  border-radius: 5px;
+  width: 165px;
+  margin-left: 15px;
+}
+div.fila3 label{
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: oswald;
+  font-weight: 600
+}
+div.fila3 input{
+  border: 0.2px solid #dc3b41;
+  border-radius: 5px;
+  width: 165px;
+  margin-left: 15px;
+}
+div.subsecciones-container{
+  display: flex;
+  width: 100%;
+}
+div.subsecciones-container label{
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: oswald;
+  font-weight: 600 
+}
+div.cantidad-modulo-input{
+  margin-top: -30px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.cantidad-modulo-input input{
+  border: 0.2px solid #dc3b41;
+  border-radius: 5px;
+  text-align: center;
+  height:25px;
+}
+.button-remove{
+ margin-left: 35px; 
+}
+.button-remove button{
+  border: none;
+  background-color: white;
+  color: #0854e0;
+  font-size: 15px;
+  text-decoration: underline;
+  font-weight: 800;
+}
+.button-add-cart button{
+  display: flex;
+  font-size: 15px;
+  color: white;
+  background-color: #0854e0;
+  border-radius: 25px;
+  font-weight: 600;
+  height: 40px;
+  width: 100px;
+  border: none;
+  margin-left: 170px;
+  margin-top: -45px;
+  margin-bottom: -42px;
+}
+
+
+  /*FOOTER*/
+
+  div.pie-pagina {
+    margin-top: 60px;
+    background-color:#c6c6c6;
+    opacity: 85%;
+}
+
+  div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa , .red-social , .subscripcion {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: oswald;
+    
+}
+  
+div.pie-pagina h3 {
+    margin-bottom: 10px;
+    font-size: 1.35em;
+    text-decoration: underline;
+}
+
+div.pie-pagina p {
+    margin-bottom: 7px;
+}
+
+div.pie-pagina span {
+    padding: 0 15px;
+}
+
+div.pie-pagina i {
+    font-size: 23px;
+}
+
+div.pie-pagina span.uno {
+    color:BLACK
+}
+div.pie-pagina span.dos {
+    color: BLACK;
+}
+div.pie-pagina span.tres {
+    color: BLACK;
+}
+div.pie-pagina span.cuatro{
+    color: BLACK;
+}
+
+div.pie-pagina input {
+  margin: 10px;
+  width: 100%;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+}
 
   @media (min-width: 420px) {
 
