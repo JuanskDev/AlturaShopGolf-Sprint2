@@ -234,22 +234,27 @@ div.palos-titleist img {
 
 div.palos-titleist H4 {
   position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: oswald;
+    font-weight: 800;
 }
 
 div.palos-titleist H5 {
   position: absolute;
-  top: 80%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 300px;
+  min-width: 400px;
   color: white;
   font-size: 20px;
   text-align: center;
+  font-size: 25px;
+  font-family: oswald;
+  font-weight: 800;
 }
 
 div.bushnells {
@@ -264,27 +269,31 @@ div.bushnells img {
 
 div.bushnells h4 {
   position: absolute;
-    top: 62%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 24px;
+    font-family: oswald;
+    font-weight: 800;
 }
 
 div.bushnells h5 {
   position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 300px;
     color: white;
     font-size: 20px;
   text-align: center;
+  font-family: oswald;
+  font-weight: 800;
 }
 
 div.callaway-coleccion {
   margin: 10px;
-  position: relative;
+  position: relative; 
 }
 
 div.callaway-coleccion img {
@@ -301,28 +310,37 @@ div.callaway-coleccion h4 {
   min-width: 300px;
   font-size: 20px;
   text-align: center;
+  font-weight: 800;
+  font-family: oswald;
+  font-weight: 800;
+  font-family: oswald;
 }
 
 div.callaway-coleccion h5 {
   position: absolute;
-  top: 65%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #eee;
   font-size: 20px;
+  font-weight: 800;
+  font-family: oswald;
 }
 
 
 div.callaway-coleccion h6 {
   position: absolute;
-    top: 85%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 300px;
     color: #eee;
     font-size: 20px;
     text-align: center;
+    font-weight: 800;
+  font-family: oswald;
 }
+
 
 div.clases-golf {
   margin: 10px;
@@ -336,33 +354,38 @@ div.clases-golf img {
 
 div.clases-golf h4{
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   min-width: 300px;
   font-size: 20px;
   text-align: center;
+  font-weight: 200;
+  font-family: oswald;
 }
-
 div.clases-golf h5{
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #eee;
   font-size: 20px;
+  font-weight: 200;
+  font-family: oswald;
 }
 
 div.clases-golf h6{
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 300px;
   color: #eee;
   font-size: 20px;
   text-align: center;
+  font-weight: 200;
+  font-family: oswald;
 }
 
 div.suscripcion-home{
@@ -375,7 +398,9 @@ div.suscripcion-home h4 {
   text-align: center;
     color: white;
     padding: 15px;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: oswald;
+
 }
 
 div.nombre-a-sus {
@@ -389,6 +414,8 @@ div.nombre-a-sus label {
     color: white;
     text-align: center;
     display: block;
+    font-family: oswald;
+    
 }
 
 div.nombre-a-sus input {
@@ -408,6 +435,8 @@ div.email-sus label {
     display: block;
     padding: 12px;
     font-size: 20px;
+    font-weight: 200;
+    font-family: oswald;
 }
 
 div.email-sus input {
@@ -450,8 +479,11 @@ div.indumetaria-home span {
     padding: 10px 80px;
     color: #000000;
     background-color: #dc3b41;
+    min-width: 390px;
     opacity: 0.7;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: oswald;
+    text-align: center;
 }
 
 div.carros-home {
@@ -459,7 +491,7 @@ div.carros-home {
 }
 
 div.carros-home span {
-  position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -467,8 +499,10 @@ div.carros-home span {
     color: #000000;
     background-color: #dc3b41;
     opacity: 0.7;
-    min-width: 283px;
-    font-size: 20px;
+    min-width: 390px;
+    font-size: 25px;
+    font-family: oswald;
+    text-align: center;
 }
 
 div.palos-home {
@@ -484,9 +518,11 @@ div.palos-home span {
   color: #000000;
   background-color: #dc3b41;
   opacity: 0.7;
-  min-width: 283px;
+  min-width: 390px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: oswald;
+  text-align: center;
 }
 
 
