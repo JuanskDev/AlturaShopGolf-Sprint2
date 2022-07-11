@@ -152,11 +152,11 @@
     font-size: 15px;
     color: #000000;
   }
-  .imagen-primaria{
-  
+  div.img-primaria{
+  background-color: #dc3b41;
     align-items: center;
     border: 1px silver solid;
-    border-collapse: separate;
+    
   }
   .other-img-products{
        
