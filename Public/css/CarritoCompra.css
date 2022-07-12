@@ -296,10 +296,6 @@ div.articulo-promocion p.precio {
 
 /* FOOTER */
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5b8c6ec52e7b886a3cc760d4fcdefa09fc7fadf9
 div.pie-pagina {
   margin-top: 60px;
   background-color:#c6c6c6;
@@ -311,11 +307,8 @@ div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa , .red-soci
   width: 80%;
   text-align: center;
   padding-bottom: 20px;
-<<<<<<< HEAD
   font-family: oswald;
   
-=======
->>>>>>> 5b8c6ec52e7b886a3cc760d4fcdefa09fc7fadf9
 }
 
 div.pie-pagina h3 {
@@ -337,40 +330,16 @@ div.pie-pagina i {
 }
 
 div.pie-pagina span.uno {
-<<<<<<< HEAD
-  color:BLACK
+    color: black
 }
 div.pie-pagina span.dos {
-  color: BLACK;
+    color: black;
 }
 div.pie-pagina span.tres {
-  color: BLACK;
+    color: black;
 }
 div.pie-pagina span.cuatro{
-  color: BLACK;
-}
-
-div.pie-pagina input {
-margin: 10px;
-width: 100%;
-padding: 7px 20px;
-border-radius: 5px;
-border: none;
-}
-
-@media (min-width: 420px) {
-
-=======
-    color:blue
-}
-div.pie-pagina span.dos {
-    color: brown;
-}
-div.pie-pagina span.tres {
-    color: aqua;
-}
-div.pie-pagina span.cuatro{
-    color: red;
+    color: black;
 }
 
 div.pie-pagina input {
@@ -387,5 +356,4 @@ div.pie-pagina input {
         display: flex;
         
     }
->>>>>>> 5b8c6ec52e7b886a3cc760d4fcdefa09fc7fadf9
 }
