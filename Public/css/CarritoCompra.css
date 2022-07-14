@@ -60,7 +60,7 @@ header {
   justify-content: space-between;
   align-items: center;
   color: black;
-  padding: 30px;
+  padding: 15px;
 }
 .ocultar {
   display: none;
@@ -249,7 +249,7 @@ font-size: 12px;
 
 .subtotal-caja {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   padding: 30px;
   margin: 5% 0 0 0;
@@ -296,19 +296,34 @@ div.articulo-promocion p.precio {
 
 /* FOOTER */
 
+
 div.pie-pagina {
   margin-top: 60px;
   background-color:#c6c6c6;
   opacity: 85%;
+  padding: 0 4%;
 }
 
-div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa , .red-social , .subscripcion {
+div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa, .subscripcion {
   margin: auto;
   width: 80%;
   text-align: center;
   padding-bottom: 20px;
   font-family: oswald;
-  
+}
+
+.red-social {
+display: flex;
+background-color: #c6c6c6;
+margin: 0;
+padding: 5px;
+justify-content: center;
+opacity: 85%;
+}
+
+.red-social span {
+margin: 0 10px;
+font-size: 18px;
 }
 
 div.pie-pagina h3 {
@@ -330,30 +345,116 @@ div.pie-pagina i {
 }
 
 div.pie-pagina span.uno {
-    color: black
+  color:BLACK
 }
 div.pie-pagina span.dos {
-    color: black;
+  color: BLACK;
 }
 div.pie-pagina span.tres {
-    color: black;
+  color: BLACK;
 }
 div.pie-pagina span.cuatro{
-    color: black;
+  color: BLACK;
 }
 
 div.pie-pagina input {
-    margin: 10px;
-    width: 100%;
-    padding: 7px 20px;
-    border-radius: 5px;
-    border: none;
+margin: 10px;
+width: 100%;
+padding: 7px 20px;
+border-radius: 5px;
+border: none;
+max-width: 329px;
 }
 
-@media (min-width: 860px) {
 
-    div.pie-pagina {
-        display: flex;
-        
-    }
+@media (min-width: 420px) {
+  
+  header .buscador {
+    display: none;
+  }
+
+  .iconos-compra-location {
+    justify-content: space-around;
+  }
+
+ .Compra-item-flex {
+  margin: 0;
+ }
+
+ header .logo img {
+  max-width: 120px;
+ }
+
+ 
+.iconos-compra-location span {
+margin-left: 25px;
 }
+
+}
+
+@media (min-width: 790px) {
+ 
+/*HEADER*/
+
+header {
+flex-wrap: nowrap;
+}
+
+header .btn-menu {
+width: 10%;
+}
+
+header .logo {
+width: 20%;
+text-align: center;
+}
+
+.iconos-compra-location {
+display: none;
+}
+
+header .buscador {
+display: block;
+}
+
+.Compra-item-flex {
+margin: 0 10px 0 0;
+width: 25%;
+}
+
+/*FOOTER*/
+
+div.pie-pagina {
+  display: flex;  
+  margin: 0%;
+}
+
+div.pie-pagina .servicio-cliente, .servicios, .informacion-empresa, .red-social, .subscripcion {
+  margin: 0;
+}
+ /* MAIN */ 
+
+ div.articulo-promocion {
+  display: none;
+ }
+
+ .product-info {
+  position: relative;
+  left: 50px;
+ }
+
+ .Compra-item-flex hr {
+  display: none
+ }
+
+ .subtotal-caja {
+  justify-content: space-evenly;
+ }
+
+}
+
+@media (min-width: 1000px) {
+  header .buscador {
+    min-width: 400px
+  }
+} 
