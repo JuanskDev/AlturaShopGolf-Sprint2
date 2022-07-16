@@ -331,19 +331,34 @@ div.cantidad-modulo-input{
 
   /*FOOTER*/
 
+
   div.pie-pagina {
     margin-top: 60px;
     background-color:#c6c6c6;
     opacity: 85%;
+    padding: 0 4%;
 }
 
-  div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa , .red-social , .subscripcion {
+  div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa, .subscripcion {
     margin: auto;
     width: 80%;
     text-align: center;
     padding-bottom: 20px;
     font-family: oswald;
-    
+}
+
+.red-social {
+  display: flex;
+  background-color: #c6c6c6;
+  margin: 0;
+  padding: 5px;
+  justify-content: center;
+  opacity: 85%;
+}
+
+.red-social span {
+margin: 0 10px;
+font-size: 18px;
 }
   
 div.pie-pagina h3 {
@@ -383,8 +398,90 @@ div.pie-pagina input {
   padding: 7px 20px;
   border-radius: 5px;
   border: none;
+  max-width: 329px;
 }
 
-  @media (min-width: 420px) {
 
+@media (min-width: 420px) {
+    
+  header {
+    padding: 0 25px;
   }
+  
+  header .buscador {
+    display: none;
+  }
+
+  .iconos-compra-location {
+    justify-content: space-around;
+  }
+
+ .Compra-item-flex {
+  margin: 0;
+ }
+
+ header .logo img {
+  max-width: 120px;
+ }
+
+ 
+.iconos-compra-location span {
+margin-left: 25px;
+}
+
+}
+
+@media (min-width: 790px) {
+ 
+/*HEADER*/
+
+header {
+flex-wrap: nowrap;
+padding: 25px;
+}
+
+header .btn-menu {
+width: 10%;
+}
+
+header .logo {
+width: 20%;
+text-align: center;
+}
+
+.iconos-compra-location {
+display: none;
+}
+
+header .buscador {
+display: block;
+}
+
+.Compra-item-flex {
+margin: 0 10px 0 0;
+width: 25%;
+}
+
+/*FOOTER*/
+
+div.pie-pagina {
+  display: flex;  
+  margin: 0%;
+}
+
+div.pie-pagina .servicio-cliente, .servicios, .informacion-empresa, .red-social, .subscripcion {
+  margin: 0;
+}
+
+.red-social {
+  display: grid;
+}
+
+
+}
+
+@media (min-width: 1000px) {
+  header .buscador {
+    min-width: 400px
+  }
+} 

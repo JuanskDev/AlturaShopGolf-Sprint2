@@ -60,7 +60,7 @@
     justify-content: space-between;
     align-items: center;
     color: black;
-    padding: 30px;
+    padding: 0 30px;
   }
   .ocultar {
     display: none;
@@ -146,6 +146,64 @@
     font-size: 17px;
   }
 
+ 
+
   @media (min-width: 420px) {
+    
+    header {
+      padding: 0 25px;
+    }
+    
+    header .buscador {
+      display: none;
+    }
+
+    .iconos-compra-location {
+      justify-content: space-around;
+    }
+
+   .Compra-item-flex {
+    margin: 0;
+   }
+  
+   header .logo img {
+    max-width: 120px;
+   }
+
+   
+.iconos-compra-location span {
+  margin-left: 25px;
+}
+
+  }
+
+  @media (min-width: 790px) {
+
+header {
+  flex-wrap: nowrap;
+  padding: 25px;
+}
+
+header .btn-menu {
+  width: 10%;
+}
+
+header .logo {
+  width: 20%;
+  text-align: center;
+}
+
+.iconos-compra-location {
+  display: none;
+}
+
+header .buscador {
+  display: block;
+}
+
+.Compra-item-flex {
+  margin: 0 10px 0 0;
+  width: 25%;
+}
 
   }

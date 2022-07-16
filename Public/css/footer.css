@@ -12,13 +12,25 @@ div.pie-pagina {
     opacity: 90%;
 }
 
-  div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa , .red-social , .subscripcion {
+  div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa  , .subscripcion {
     margin: auto;
     width: 80%;
     text-align: center;
     padding-bottom: 20px;
 }
   
+.red-social {
+    display: flex;
+    background-color: #c6c6c6;
+    margin: 0;
+    padding: 5px;
+    justify-content: center;
+}
+
+.red-social span {
+margin: 0 10px;
+}
+
 div.pie-pagina h3 {
     margin-bottom: 10px;
     font-size: 1.35em;
