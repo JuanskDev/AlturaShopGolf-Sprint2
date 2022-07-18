@@ -150,14 +150,21 @@
     font-size: 17px;
   }
 
+  nav.nav-full-screen {
+    display: none;
+  }
   @media (min-width: 420px) {
     
     header {
       padding: 0 25px;
     }
     
-    header .buscador {
+    header .Compra-item-flex {
       display: none;
+    }
+
+    header .buscador {
+      width: 80%;
     }
   
     .iconos-compra-location {
@@ -182,12 +189,11 @@
   @media (min-width: 790px) {
 
     header {
-      flex-wrap: nowrap;
       padding: 25px;
       }
       
       header .btn-menu {
-      width: 10%;
+      display: none;
       }
       
       header .logo {
@@ -200,15 +206,24 @@
       }
       
       header .buscador {
-      display: block;
+      width: 33%;
       }
       
-      .Compra-item-flex {
-      margin: 0 10px 0 0;
-      width: 25%;
+     header .Compra-item-flex {
+      display: block;
+      width: 33%
       }
 
-  }
+      nav.nav-full-screen {
+        display: flex;
+        margin: auto;
+        width: 90%;
+        justify-content: space-between;
+    }
+      }
+
+
+
   @media (min-width: 1000px) {
     header .buscador {
       min-width: 400px
