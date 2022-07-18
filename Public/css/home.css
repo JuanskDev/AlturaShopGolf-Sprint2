@@ -194,7 +194,40 @@ background-color: #fff;
   height: 300px;
   object-fit: cover;
  }
-
+ #juan-slider ul.slider li h1{
+  position: absolute;
+  margin-left: 420px;
+  margin-top: -310px;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-family: oswald;
+  font-weight: 900
+ }
+ #juan-slider ul.slider li h2{
+  position: absolute;
+  margin-left: 420px;
+  margin-top: -185px;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  font-family: oswald;
+  font-weight: 400;
+ }
+ #juan-slider ul.slider li button{
+  font-family: oswald;
+    width: 180px;
+    position: absolute;
+    margin-left: -265px;
+    margin-top: 240px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+ 
  #juan-slider ul.slider li:first-child {
   opacity: 1;
  }
