@@ -12,7 +12,7 @@ app.listen(3030, ()=>{
 });  
 
 app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/home.ejs');
+    res.sendFile(__dirname + '/src/views/home.html');
 });
 
 app.get('/footer', (req,res)=>{
@@ -25,11 +25,11 @@ app.get('/header', (req,res)=>{
 // MVC SYSTEM
 // Users Routes
 
-const rutasUsers = require('../src/routes/users');
-app.use(require('../src/routes/users'));
+const rutasUsers = require('./src/routes/users');
+app.use(require('./src/routes/users'));
 
 
 //Products Routes
 
-const rutasProductos = require('./routes/products');
-app.use(require('../src/routes/products')) 
+const rutasProductos = require('./src/routes/products');
+app.use(require('./src/routes/products')) 
