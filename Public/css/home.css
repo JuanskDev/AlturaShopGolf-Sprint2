@@ -522,15 +522,14 @@ div.indumetaria-home {
 }
 
 div.indumetaria-home span {
-  font-weight: 900;
+  font-weight: 800;
   position: absolute;
   top: 34PX;
-  left: 500PX;
+  left: 600PX;
   padding: 10px 80px;
-  color: #000000;
+  color: black;
   min-width: 250px;
-  opacity: 0.7;
-  font-size: 30px;
+  font-size: 25px;
   font-family: oswald;
   text-align: center;
   text-decoration: underline;
