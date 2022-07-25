@@ -12,16 +12,18 @@ app.listen(3030, ()=>{
 });  
 
 app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/home.ejs');
+    res.sendFile(__dirname + '/views/home.html');
 });
 
 app.get('/footer', (req,res)=>{
     res.sendFile(__dirname + '/views/footer.html');
 });
 app.get('/header', (req,res)=>{
-    res.sendFile(__dirname + '/views/header.html');
+    res.render(__dirname + '/views/header.ejs');
 });
-
+app.get('/head', (req,res)=>{
+    res.render(__dirname + '/views/head.ejs');
+});
 // MVC SYSTEM
 // Users Routes
 
