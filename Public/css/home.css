@@ -534,6 +534,17 @@ div.indumetaria-home span {
   text-align: center;
   text-decoration: underline;
 }
+div.marcas{
+  display: flex;
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  margin-left: 102px;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 div.carros-home {
   position: relative;
@@ -572,6 +583,16 @@ div.palos-home span {
   text-align: center;
   FONT-WEIGHT: 900;
   text-decoration: underline;
+}
+.final-home{
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #dc3b41;
+  opacity: 0.7;
+ 
+  
+  
 }
 
 
