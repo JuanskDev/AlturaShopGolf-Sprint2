@@ -12,7 +12,7 @@ app.listen(3030, ()=>{
 });  
 
 app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/home.html');
+    res.render(__dirname + '/views/home.ejs');
 });
 
 app.get('/footer', (req,res)=>{
