@@ -8,4 +8,5 @@ var router = express.Router();
 router.get('/carrito-de-compras' , productsController.carritoCompra);
 router.get('/detalleproducto' , productsController.detalleProducto);
 
+
 module.exports = router;
