@@ -10,6 +10,12 @@ console.log(__dirname)
 app.listen(3030, ()=>{
     console.log('Servidor funcionando');
 }); 
+app.get('/productos/accesorios' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/accesorios.ejs'))
+})
+app.get('/productos/tecnologia' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/tecnologia.ejs'))
+})
 
 app.get('/productos/palos' , (req , res) => {
     res.render(path.join(__dirname , 'src/views/palos.ejs'))
