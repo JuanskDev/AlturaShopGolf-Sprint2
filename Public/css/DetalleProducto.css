@@ -10,10 +10,14 @@
 
 
   /*MAIN*/
+
+
 nav.menu-detalle-producto{
   color: #000000;
   font-size: 15px;  
   text-decoration: none;
+  padding: 15px 5px 15px  5px;
+  text-align: center;
 }
 div.img-primaria{
   width: 100%;
@@ -215,3 +219,7 @@ div.cantidad-modulo-input{
 @media (min-width: 1000px) {
 
 } 
+
+.product-content{
+  margin: auto;
+}
