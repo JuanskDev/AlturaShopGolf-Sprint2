@@ -23,6 +23,14 @@ app.get('/productos/bolsas' , (req , res) => {
     res.render(path.join(__dirname , 'src/views/bolsas.ejs'))
 })
 
+app.get('/productos/indumentaria' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/indumentaria.ejs'))
+})
+app.get('/productos/tecnologia' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/tecnologia.ejs'))
+})
+
+
 // MVC SYSTEM
 
 // Main Routes

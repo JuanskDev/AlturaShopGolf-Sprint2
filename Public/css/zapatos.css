@@ -115,12 +115,15 @@
     body.zapatos li.producto-zapatos-lista {
         width: 27%;
     }
+    body.zapatos li.producto-zapatos-lista img {
+      margin: auto;
+      display: block;
+  }
 
 }
 
 @media (min-width : 1200px) {
   body.zapatos li.producto-zapatos-lista img {
-    margin: auto;
-    display: block;
+    height: 65%;   
 }
 }
