@@ -10,12 +10,39 @@ function mostrarMenu(){
 }
 
 function mostrarSlide(slideIndex) {
+    if(slideIndex == -1 && interval != 1) slideIndex = interval-1;
+    if(slideIndex == 0  && interval != 1) slideIndex = interval+1;
+    if(slideIndex <= 1) slideIndex = 1;
+    if(slideIndex > 6) slideIndex = 6;
     let sliderItemActive = document.getElementsByClassName("slider-item active");
-    sliderItemActive[0].classList.remove("active");
     let element = document.getElementById("slide" + slideIndex);
+    let element_ = document.getElementById("slide_" + slideIndex);
+
+    sliderItemActive[0].classList.remove("active");
+    sliderItemActive[0].classList.remove("active");
     element.classList.add("active");
+    element_.classList.add("active");
+    interval = slideIndex;
 }
 
-//setInterval(setTimeout(mostrarSlide(6), 5000), 5000);
+let interval = 1;
+setInterval(function(){
+    if(interval >= 6) interval = 0;
+    interval++;
+    mostrarSlide(interval);
+}, 5000);
 
-
+let submenuSelected = '';
+function mostrarMenu(menu) {
+    if(menu != submenuSelected) {
+        if(submenuSelected.length >0) {
+            document.getElementById(submenuSelected).classList.remove('show-submenu');
+        }
+        submenuSelected = menu;
+        document.getElementById(menu).classList.add('show-submenu');
+    }
+    else {
+        document.getElementById(menu).classList.remove('show-submenu');
+        submenuSelected = '';
+    }
+}

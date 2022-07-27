@@ -16,28 +16,29 @@
         
         <li>
           <a href="">PRODUCTOS</a>
-          <ul class="ocultar">
+          <ul>
             <li><a href="">BOLSAS</a></li>
             <li><a href="">CARROS</a></li>
             <li><a href="">GORRAS</a></li>
+            <li>
+              <a href="">PALOS</a>
+              <ul>
+                <li><a href="">DRIVE</a></li>
+                <li><a href="">MADERAS</a></li>
+                <li><a href="">HIBRIDOS</a></li>
+                <li><a href="">HIERROS</a></li>
+                <li><a href="">PUTTERS</a></li>
+                <li><a href="">WEDGES</a></li>
+              </ul>
+            </li>
           </ul>
-          <li>
-            <a href="">PALOS</a>
-            <ul class="ocultar">
-              <li><a href="">DRIVE</a></li>
-              <li><a href="">MADERAS</a></li>
-              <li><a href="">HIBRIDOS</a></li>
-              <li><a href="">HIERROS</a></li>
-              <li><a href="">PUTTERS</a></li>
-              <li><a href="">WEDGES</a></li>
-            </ul>
-          </li>
+         
   
           <li><a href="">PELOTAS</a></li>
   
           <li>
             <a href="">TECNOLOGIA</a>
-            <ul class="ocultar">
+            <ul>
               <li><a href="">GPS</a></li>
               <li><a href="">SMARTWACHT</a></li>
               <li><a href="">TELEMETROS</a></li>
@@ -88,15 +89,50 @@
     </div>
 
     <nav class="nav-full-screen"> 
-      <a href="/productos/accesorios"> ACCESORIOS</a>
-      <a href="/productos/bolsas"> BOLSAS</a>
-      <a href="#"> INDUMENTARIA</a>
-      <a href="/productos/palos"> PALOS</a>
-      <a href="#"> PELOTAS</a>
-      <a href="#"> VESTIR</a>
-      <a href="/productos/tecnologia"> TECNOLOGIA</a>
-      <a href="/productos/zapatos"> ZAPATOS</a>
-
+        <div>
+          <a href="/productos/accesorios"> ACCESORIOS</a>
+        </div>
+        <div>
+          <a href="#" onclick="mostrarMenu('nav-bolsas')"> BOLSAS</a>
+          <div id="nav-bolsas" class="nav-submenu">
+            <ul>
+              <li>
+                <a href="/productos/bolsas"> BOLSA </a>
+                <a href="/productos/bolsas"> CARROS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <a href="#"> INDUMENTARIA</a>
+        </div>
+        <div>
+          <a href="#" onclick="mostrarMenu('nav-palos')"> PALOS</a>
+          <div id="nav-palos" class="nav-submenu">
+            <ul>
+              <li>
+                <a href="/productos/palos"> DRIVE</a>
+                <a href="/productos/palos"> MADERAS</a>
+                <a href="/productos/palos"> HIBRIDO</a>
+                <a href="/productos/palos"> HIERROS</a>
+                <a href="/productos/palos"> WEDGES</a>
+                <a href="/productos/palos"> PUTTERS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <a href="#"> PELOTAS</a>
+        </div>
+        <div>
+          <a href="#"> VESTIR</a>
+        </div>
+        <div>
+          <a href="/productos/tecnologia"> TECNOLOGIA</a>
+        </div>
+        <div>
+          <a href="/productos/zapatos"> ZAPATOS</a>
+        </div>
     </nav>
 </header>
 </body>
