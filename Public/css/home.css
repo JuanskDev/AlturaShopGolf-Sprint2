@@ -203,11 +203,11 @@ font-family: sans-serif;
  }
  #juan-slider ul.slider li h1 {
   position: absolute;
-  margin-left: 480px;
-  margin-top: -455px;
+  margin-left: 55%;
+  margin-top: -480px;
   text-align: center;
   color: white;
-  font-size: 55px;
+  font-size: 70px;
   font-family: oswald;
   font-weight: 900;
 }
@@ -224,7 +224,7 @@ font-family: sans-serif;
 
  #juan-slider ul.slider li h2{
   position: absolute;
-  margin-left: 504px;
+  margin-left: 60%;
   margin-top: -255px;
   text-align: center;
   color: white;
@@ -236,7 +236,7 @@ font-family: sans-serif;
   font-family: oswald;
   width: 215px;
   position: absolute;
-  margin-left: -280px;
+  margin-left: -27%;
   margin-top: 410px;
   color: white;
   background-color: blue;

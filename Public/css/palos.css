@@ -6,8 +6,24 @@
   }
 
   body.palos h2 {
-    text-align: center;
+    opacity: 0.6;
+    /* text-align: center; */
     margin: auto;
+    font-family: 'Oswald';
+    color: red;
+    margin-left: 68px;
+    font-size: 30px;
+    margin-bottom: -90px;
+  }
+  body.palos h4 {
+    opacity: 0.6;
+    /* text-align: center; */
+    margin: auto;
+    font-family: 'Oswald';
+    color: red;
+    margin-left: 68px;
+    font-size: 15px;
+    
   }
 
   body.palos .resultado-busqueda {
