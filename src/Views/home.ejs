@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+   
     <%- include('./partials/head.ejs')  %>
     <link rel="stylesheet" href="/css/home.css"/>
   </head>
- 
+
 <body>
 
   <%- include('./partials/header.ejs')  %>     
 
 
   <main>
- 
+    <!-- <form action="/uploadfile" enctype="multipart/form-data" method="POST"> 
+      <input type="file" name="myFile" />
+      <input type="submit" value="Subir un Archivo"/>
+   </form> -->
     <div class="main-home">
      <div id="juan-slider">
         <span class="fa fa-chevron-left" onclick="mostrarSlide(-1)"></span>
@@ -26,7 +30,7 @@
           </li>
           <li id="slide2" class="slider-item">
             <div>
-              <h1>REBAJAS EN PRODUCTOS ENTRANTES</h1>
+              <h1>REBAJAS EN PRODUCTOS TEMPORADA 2020/2021</h1>
               <h2>LA MEJOR VARIEDAD </h2>
               <a href="/" class="button-slide">COMPRE AHORA AQUÍ</a>
             </div>

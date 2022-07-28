@@ -1,7 +1,7 @@
 const express = require('express'); // MODULO EXPRESS
 const app = express(); // MODULO EXPRESS EN FUNCIONALIDAD EN APP.JS
 const path = require('path'); //  MODULO PATH
-
+// const multer = require('multer'); //MODULO PARA SUBIR ARCHIVOS - MULTER
 app.use(express.static('./Public'));  // CSS
 
 console.log(__dirname)
@@ -47,3 +47,19 @@ app.use(require('./src/routes/users'));
 const rutasProductos = require('./src/routes/products');
 app.use(require('./src/routes/products')) 
 
+//multer settings
+// const storage = multer.diskStorage({
+//     destination: function(req, file, cb){
+//         cb(null,'./public/img/upload');
+//     },
+//     filename:function(req, file, cb){
+//         cb(null, file.filedname + '-' + Date.now());
+//     }
+// })
+
+// const uploadFile = multer({ storage: storage });
+
+// app.post('/uploadfile', uploadFile.single('myFile'), (req, res) =>{
+//     console.log(req.file)
+//     //res.send('Archivo subido correctamente')
+// })
