@@ -29,6 +29,12 @@ app.get('/productos/indumentaria' , (req , res) => {
 app.get('/productos/tecnologia' , (req , res) => {
     res.render(path.join(__dirname , 'src/views/tecnologia.ejs'))
 })
+app.get('/productos/pelotas' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/pelotas.ejs'))
+})
+app.get('/contacto' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/contacto.ejs'))
+})
 
 
 // MVC SYSTEM

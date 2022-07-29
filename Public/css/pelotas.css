@@ -5,23 +5,23 @@
     font-family: "Open Sans";
   }
 
-  body.zapatos h1 {
+  body.pelotas h1 {
     text-align: center;
     margin: auto;
   }
 
-  body.zapatos .resultado-busqueda {
+  body.pelotas .resultado-busqueda {
     width: 90%;
     margin: auto;
     padding: 20px 5px;
     position: relative;
   }
 
-  body.zapatos .resultado-busqueda h2 {
+  body.pelotas .resultado-busqueda h2 {
     text-align: right;
   }
 
-  body.zapatos .ordenar-buscador {
+  body.pelotas .ordenar-buscador {
     position: absolute;
     right: 2%;
     top: 100%; 
@@ -35,95 +35,89 @@
     margin-top: 50px;
   }
 
-  body.zapatos ul {
+  body.pelotas ul {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
   }
 
-  body.zapatos li.producto-zapatos-lista {
+  body.pelotas li.producto-pelotas-lista {
     width: 47%;
     padding: 10px 0;
     margin: 0 1.5% 20px;
     background: #fff;
-    max-width: 100%;
   }
 
-  body.zapatos li.producto-zapatos-lista img {
+  body.pelotas li.producto-pelotas-lista img {
     max-width: 100%;
     padding-bottom: 30px;
   }
 
   div.tamaño-hr {
-    height: 25%;
+    height: 35%;
   }
 
-  body.zapatos li.producto-zapatos-lista h6{
+  body.pelotas li.producto-pelotas-lista h6{
     text-align: center;
   }
 
-  body.zapatos li.producto-zapatos-lista p {
+  body.pelotas li.producto-pelotas-lista p {
     text-align: center;
     font-size: 13px;
     margin: 5px 0 8px;
     line-height: 20px;
   }
 
-  body.zapatos li.producto-zapatos-lista h5 {
+  body.pelotas li.producto-pelotas-lista h5 {
     display: flex;
     font-size: 14px;
     justify-content: space-evenly;
   }
 
-  body.zapatos li.producto-zapatos-lista h5 .span-1 {
+  body.pelotas li.producto-pelotas-lista h5 .span-1 {
     text-decoration: line-through;
   }
 
-  body.zapatos li.producto-zapatos-lista h5 .span-3 {
+  body.pelotas li.producto-pelotas-lista h5 .span-3 {
     justify-content: center;
   }
 
-  body.zapatos li.producto-zapatos-lista .p-descuento {
+  body.pelotas li.producto-pelotas-lista .p-descuento {
     margin-top: 5px;
     text-align: center;
     font-size: 12px;
   }
 
   @media (min-width: 420px) {
-   
-    body.zapatos h1 {
+    
+    body.pelotas h1 {
       text-align: left;
       margin-left: 40px;
   }
 
-  body.zapatos .resultado-busqueda h2 {
+  body.pelotas .resultado-busqueda h2 {
     text-align: left;
 }
-
-}
+  }
 
 @media (min-width: 790px) {
 
-    div.tamaño-hr {
-        margin-bottom: 20px;
-    }
-
-    body.zapatos ul {
+    body.pelotas ul {
         justify-content: space-around;
     }  
 
-    body.zapatos li.producto-zapatos-lista {
+    body.pelotas li.producto-pelotas-lista {
         width: 27%;
     }
-    body.zapatos li.producto-zapatos-lista img {
+    body.pelotas li.producto-pelotas-lista img {
       margin: auto;
       display: block;
-  }
+    } 
 
 }
 
-@media (min-width : 1200px) {
-  body.zapatos li.producto-zapatos-lista img {
-    height: 65%;   
-}
+@media (min-width: 1200px) {
+body.pelotas li.producto-pelotas-lista img {
+ height: 65%;
+} 
 }
