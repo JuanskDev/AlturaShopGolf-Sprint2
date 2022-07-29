@@ -100,8 +100,8 @@ app.get('/productos/ropa-de-mujer' , (req , res) => {
     res.render(path.join(__dirname , 'src/views/ropa-de-mujer.ejs'))
 })
 //_______________________ROPA-DE-NIÑOS_____________________________//
-app.get('/productos/ropa-de-niño' , (req , res) => {
-    res.render(path.join(__dirname , 'src/views/ropa-de-niño.ejs'))
+app.get('/productos/ropa-de-ninos' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/ropa-de-ninos.ejs'))
 })
 
 //_______________________________________________________________//
