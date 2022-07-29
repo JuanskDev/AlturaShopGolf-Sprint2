@@ -10,23 +10,126 @@ console.log(__dirname)
 app.listen(3030, ()=>{
     console.log('Servidor funcionando');
 }); 
+//_______________________________________________________________//
+//_______________________ACCESORIOS_____________________________//
 app.get('/productos/accesorios' , (req , res) => {
     res.render(path.join(__dirname , 'src/views/accesorios.ejs'))
 })
-app.get('/productos/tecnologia' , (req , res) => {
-    res.render(path.join(__dirname , 'src/views/tecnologia.ejs'))
+//_______________________GUANTES____________________________//
+app.get('/productos/guantes' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/accesorios/guantes.ejs'))
 })
-
+//_______________________GORRAS_____________________________//
+app.get('/productos/gorras' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/accesorios/gorras.ejs'))
+})
+//_______________________HERRAMIENTAS_____________________________//
+app.get('/productos/herramientas' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/accesorios/herramientas.ejs'))
+})
+//_______________________TEES_____________________________//
+app.get('/productos/tees' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/accesorios/tees.ejs'))
+})
+//_______________________TOALLAS_____________________________//
+app.get('/productos/toallas' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/accesorios/toallas.ejs'))
+})
+//_______________________PARAGUAS_____________________________//
+app.get('/productos/paraguas' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/accesorios/paraguas.ejs'))
+})
+//__________________________________________________________________//
+//_______________________BOLSAS-CARROS_____________________________//
+app.get('/productos/bolsas-carros' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/bolsas-carros.ejs'))
+})
+//_______________________BOLSAS_____________________________//
+app.get('/productos/bolsas' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/bolsas.ejs'))
+})
+//_______________________CARROS_____________________________//
+app.get('/productos/carros' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/carros.ejs'))
+})
+//__________________________________________________________//
+//_______________________PALOS_____________________________//
 app.get('/productos/palos' , (req , res) => {
     res.render(path.join(__dirname , 'src/views/palos.ejs'))
 })
-
-app.get('/productos/zapatos' , (req , res) => {
-    res.render(path.join(__dirname , 'src/views/zapatos.ejs'))
+//_______________________DRIVE_____________________________//
+app.get('/productos/drive' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/drive.ejs'))
+})
+//_______________________MADERAS_____________________________//
+app.get('/productos/maderas' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/maderas.ejs'))
+})
+//_______________________HIBRIDOS_____________________________//
+app.get('/productos/hibridos' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/hibridos.ejs'))
+})
+//_______________________HIERROS_____________________________//
+app.get('/productos/hierros' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/hierros.ejs'))
+})
+//_______________________WEDGES_____________________________//
+app.get('/productos/wedges' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/wedges.ejs'))
+})
+//_______________________PUTTERS_____________________________//
+app.get('/productos/putters' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/putters.ejs'))
+})
+//_______________________PELOTAS_____________________________//
+app.get('/productos/pelotas' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/pelotas.ejs'))
 })
 
-app.get('/productos/bolsas' , (req , res) => {
-    res.render(path.join(__dirname , 'src/views/bolsas.ejs'))
+//____________________________________________________________//
+//_______________________VESTIR_____________________________//
+app.get('/productos/vestir' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/vestir.ejs'))
+})
+//_______________________ROPA-DE-HOMBRE_____________________________//
+app.get('/productos/ropa-de-hombre' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/ropa-de-hombre.ejs'))
+})
+//_______________________ROPA-DE-MUJER_____________________________//
+app.get('/productos/ropa-de-mujer' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/ropa-de-mujer.ejs'))
+})
+//_______________________ROPA-DE-NIÑOS_____________________________//
+app.get('/productos/ropa-de-niño' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/ropa-de-niño.ejs'))
+})
+
+//_______________________________________________________________//
+//_______________________TECNOLOGIA_____________________________//
+app.get('/productos/tecnologia' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/tecnologia.ejs'))
+})
+//_______________________GPS_____________________________//
+app.get('/productos/gps' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/gps.ejs'))
+})
+//_______________________SIMULADORES_____________________________//
+app.get('/productos/simuladores' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/simuladores.ejs'))
+})
+//_______________________SMARTWATCH_____________________________//
+app.get('/productos/smartwatch' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/smartwatch.ejs'))
+})
+//_______________________TELEMETROS_____________________________//
+app.get('/productos/telemetros' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/telemetros.ejs'))
+})
+
+//____________________________________________________________//
+//_______________________ZAPATOS_____________________________//
+app.get('/productos/zapatos' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/zapatos.ejs'))
 })
 
 // MVC SYSTEM
