@@ -1,4 +1,8 @@
-function mostrarMenu(){
+var interval = 1;
+var slider = document.getElementById('juan-slider');
+var submenuSelected = '';
+
+function mostrarMenuMobile(){
     let menu = document.getElementById("menu-mobile");
 
     if(menu.classList.contains("ocultar")){
@@ -25,14 +29,14 @@ function mostrarSlide(slideIndex) {
     interval = slideIndex;
 }
 
-let interval = 1;
-// setInterval(function(){
-//     if(interval >= 6) interval = 0;
-//     interval++;
-//     mostrarSlide(interval);
-// }, 7000);
+if(slider != null) {
+    setInterval(function(){
+        if(interval >= 6) interval = 0;
+        interval++;
+        mostrarSlide(interval);
+    }, 5000);
+}
 
-let submenuSelected = '';
 function mostrarMenu(menu) {
     if(menu != submenuSelected) {
         if(submenuSelected.length >0) {

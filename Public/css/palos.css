@@ -7,30 +7,20 @@
 
   body.palos h2 {
     opacity: 0.6;
-    /* text-align: center; */
-    margin: auto;
     font-family: 'Oswald';
     color: red;
-    margin-left: 68px;
     font-size: 30px;
-    margin-bottom: -90px;
   }
   body.palos h4 {
-    opacity: 0.6;
-    /* text-align: center; */
-    margin: auto;
     font-family: 'Oswald';
     color: red;
-    margin-left: 68px;
     font-size: 15px;
-    
+    float: left;
   }
 
   body.palos .resultado-busqueda {
-    width: 90%;
-    margin: auto;
-    padding: 20px 5px;
     position: relative;
+    padding: 15px;
   }
 
   body.palos .resultado-busqueda h2 {
@@ -38,14 +28,11 @@
   }
 
   body.palos .ordenar-buscador {
-    position: absolute;
-    right: 2%;
-    top: 100%; 
+    float: right;
   }
 
-  .select-buscador {
-    max-width: 17px;
-  }
+  /* .select-buscador {
+  } */
 
   .hr-1 {
     margin-top: 50px;
@@ -62,6 +49,7 @@
     padding: 10px 0;
     margin: 0 1.5% 20px;
     background: #fff;
+    border-bottom: 1px solid gray;
   }
 
   body.palos li.producto-palos-lista img {
