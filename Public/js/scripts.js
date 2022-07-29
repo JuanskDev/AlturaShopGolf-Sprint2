@@ -1,4 +1,4 @@
-function mostrarMenu(){
+function mostrarMenuMobile(){
     let menu = document.getElementById("menu-mobile");
 
     if(menu.classList.contains("ocultar")){

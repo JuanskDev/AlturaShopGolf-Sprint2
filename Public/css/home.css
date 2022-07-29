@@ -301,7 +301,6 @@ div.palos-titleist {
 }
 
 div.palos-titleist img {
-  height: 220px;
   width: 100%;
 }
 
@@ -336,7 +335,6 @@ div.bushnells {
 }
 
 div.bushnells img {
-  height: 220px;
   width: 100%;
 }
 
@@ -370,7 +368,6 @@ div.callaway-coleccion {
 }
 
 div.callaway-coleccion img {
-  height: 220px;
   width: 100%;
 }
 
@@ -421,7 +418,6 @@ div.clases-golf {
 }
 
 div.clases-golf img {
-  height: 220px;
   width: 100%;
 }
 
@@ -536,8 +532,7 @@ div.enviar-sus button {
 
 div.bloques-productos img {
   width: 100%;
-  height: 450px;
- position: relative;
+  position: relative;
 }
 
 div.indumetaria-home {
@@ -559,7 +554,7 @@ div.indumetaria-home span {
 }
 div.marcas{
   display: flex;
-  background-color: white;
+  background-color: black;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -592,6 +587,7 @@ div.carros-home span {
 
 div.palos-home {
   position: relative;
+  display: grid;
 }
 
 div.palos-home span {
@@ -639,13 +635,6 @@ div.palos-home span {
  
 /*HEADER*/
 
-/*FOOTER*/
-
-
-
-div.pie-pagina .servicio-cliente, .servicios, .informacion-empresa, .red-social, .subscripcion {
-  margin: 0;
-}
 
 /* MAIN */ 
 
