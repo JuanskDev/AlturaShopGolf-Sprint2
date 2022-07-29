@@ -1,20 +1,12 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/header.css">
-  <script src="https://kit.fontawesome.com/a73919cff6.js" crossorigin="anonymous"></script>
-  <script src="/js/scripts.js"></script>
+   <link rel="stylesheet" href="/css/header.css">
   <title>Document</title>
 </head>
 <body class="body-header">
   <header>
     <div class="btn-menu">
-      <button type="button" onclick="mostrarMenu()" class="item-flex">
+      <button type="button" onclick="mostrarMenuMobile()" class="item-flex">
         <span class="fa fa-bars"></span>
       </button>
     </div>
@@ -24,28 +16,29 @@
         
         <li>
           <a href="">PRODUCTOS</a>
-          <ul class="ocultar">
+          <ul>
             <li><a href="">BOLSAS</a></li>
             <li><a href="">CARROS</a></li>
             <li><a href="">GORRAS</a></li>
+            <li>
+              <a href="">PALOS</a>
+              <ul>
+                <li><a href="">DRIVE</a></li>
+                <li><a href="">MADERAS</a></li>
+                <li><a href="">HIBRIDOS</a></li>
+                <li><a href="">HIERROS</a></li>
+                <li><a href="">PUTTERS</a></li>
+                <li><a href="">WEDGES</a></li>
+              </ul>
+            </li>
           </ul>
-          <li>
-            <a href="">PALOS</a>
-            <ul class="ocultar">
-              <li><a href="">DRIVE</a></li>
-              <li><a href="">MADERAS</a></li>
-              <li><a href="">HIBRIDOS</a></li>
-              <li><a href="">HIERROS</a></li>
-              <li><a href="">PUTTERS</a></li>
-              <li><a href="">WEDGES</a></li>
-            </ul>
-          </li>
+         
   
           <li><a href="">PELOTAS</a></li>
   
           <li>
             <a href="">TECNOLOGIA</a>
-            <ul class="ocultar">
+            <ul>
               <li><a href="">GPS</a></li>
               <li><a href="">SMARTWACHT</a></li>
               <li><a href="">TELEMETROS</a></li>
@@ -76,7 +69,7 @@
         </li>
     </nav>
     <div class="logo item-flex">
-      <img src="/Img/logo-header.png" alt="Golf de Altura Store"/>
+      <p><a href="/"><img src="/Img/logo-header.png" alt="Golf de Altura Store"/></a></p>
     </div>
     <div class="iconos-compra-location">
   
@@ -92,19 +85,49 @@
     <div class="Compra-item-flex">
         <p>Devoluciones gratuitas y garantía en la devolución de su dinero</p>
       </div>
-      
     </div>
 
     <nav class="nav-full-screen"> 
-    
-      <a href="#"> PALOS</a>
-      <a href="#"> ZAPATOS</a>
-      <a href="#"> BOLSAS</a>
-      <a href="#"> INDUMENTARIA</a>
-      <a href="#"> TECNOLOGIA</a>
-      <a href="#"> PELOTAS</a>
-      <a href="#"> PROMOCIONES</a>
-
+        <div>
+          <a href="/productos/accesorios"> ACCESORIOS</a>
+        </div>
+        <div>
+          <a href="#" onclick="mostrarMenu('nav-bolsas')"> BOLSAS</a>
+          <div id="nav-bolsas" class="nav-submenu">
+            <ul>
+              <li><a href="/productos/bolsas"> BOLSA </a></li>
+              <li><a href="/productos/bolsas"> CARROS</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <a href="#"> INDUMENTARIA</a>
+        </div>
+        <div>
+          <a href="#" onclick="mostrarMenu('nav-palos')"> PALOS</a>
+          <div id="nav-palos" class="nav-submenu">
+            <ul>
+              <li><a href="/productos/palos"> DRIVE</a></li>
+              <li><a href="/productos/palos"> MADERAS</a></li>
+              <li><a href="/productos/palos"> HIBRIDO</a></li>
+              <li><a href="/productos/palos"> HIERROS</a></li>
+              <li><a href="/productos/palos"> WEDGES</a></li>
+              <li><a href="/productos/palos"> PUTTERS</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <a href="#"> PELOTAS</a>
+        </div>
+        <div>
+          <a href="#"> VESTIR</a>
+        </div>
+        <div>
+          <a href="/productos/tecnologia"> TECNOLOGIA</a>
+        </div>
+        <div>
+          <a href="/productos/zapatos"> ZAPATOS</a>
+        </div>
     </nav>
 </header>
 </body>

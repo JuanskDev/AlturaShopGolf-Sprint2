@@ -1,78 +1,61 @@
 
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans";
-  }
-
-div.pie-pagina {
+footer {
     background-color: #c6c6c6;
     opacity: 90%;
+    display: flex;
+    flex-direction: column;
 }
 
-  div.pie-pagina .servicio-cliente , .servicios , .informacion-empresa  , .subscripcion {
-    margin: auto;
-    width: 80%;
+footer .footer-image {
+    background: transparent url('/img/campos/2/bg-footer.webp') center center no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-bottom: 7px solid #dc3b41;
+}
+
+footer .footer-content {
     text-align: center;
-    padding-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
   
-.red-social {
+footer .red-social {
+    background-color: #d6d6d6;
     display: flex;
-    background-color: #c6c6c6;
-    margin: 0;
-    padding: 5px;
+    padding: 15px;
     justify-content: center;
 }
 
-.red-social span {
-margin: 0 10px;
+footer .red-social span {
+    margin: 0 10px;
+    font-size: 22px;
 }
 
-div.pie-pagina h3 {
+footer h3 {
     margin-bottom: 10px;
     font-size: 1.35em;
 }
 
-div.pie-pagina p {
+footer p {
     margin-bottom: 7px;
 }
 
-div.pie-pagina span {
+footer span {
     padding: 0 15px;
 }
 
-div.pie-pagina i {
+footer i {
     font-size: 23px;
 }
 
-div.pie-pagina span.uno {
-    color:blue
-}
-div.pie-pagina span.dos {
-    color: brown;
-}
-div.pie-pagina span.tres {
-    color: aqua;
-}
-div.pie-pagina span.cuatro{
-    color: red;
-}
-
-div.pie-pagina input {
+footer input {
     margin: 10px;
     width: 100%;
     padding: 7px 20px;
     border-radius: 5px;
     border: none;
-}
-
-@media (min-width: 860px) {
-
-    div.pie-pagina {
-        display: flex;
-        
-    }
+    max-width: 300px;
 }

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+   
+    <%- include('./partials/head.ejs')  %>
+    <link rel="stylesheet" href="/css/home.css"/>
+  </head>
+
+<body>
+
+  <%- include('./partials/header.ejs')  %>     
+
+
+  <main>
+    <!-- <form action="/uploadfile" enctype="multipart/form-data" method="POST"> 
+      <input type="file" name="myFile" />
+      <input type="submit" value="Subir un Archivo"/>
+   </form> -->
+    <div class="main-home">
+     <div id="juan-slider">
+        <span class="fa fa-chevron-left" onclick="mostrarSlide(-1)"></span>
+        <ul class="slider">
+          <li id="slide1" class="slider-item active">
+            <div></div>
+            <div>
+              <h1>FELICIDADES A CAMERON SMITH</h1>
+              <h2>EN SU PRIMERA VICTORIA DEL CIRCUITO PGA TOUR - GANADOR DEL THE OPEN.</h2>
+              <a href="/productos/palos" class="button-slide">COMPRA SU EQUIPO AQUÍ</a>
+            </div>
+          </li>
+          <li id="slide2" class="slider-item">
+            <div>
+              <h1>REBAJAS EN PRODUCTOS TEMPORADA 2020/2021</h1>
+              <h2>LA MEJOR VARIEDAD </h2>
+              <a href="/" class="button-slide">COMPRE AHORA AQUÍ</a>
+            </div>
+            <div>
+              
+            </div>
+          </li>
+          <li id="slide3" class="slider-item">
+            <div></div>
+            <div>
+              <h1>LA MEJOR COMODIDAD PARA SALIR AL CAMPO DE JEUGO</h1>
+              <h2>VARIEDAD DE MARCAS Y TALLES </h2>
+              <a href="/" class="button-slide">COMPRE AHORA AQUÍ</a>
+            </div>
+          </li>
+          <li id="slide4" class="slider-item">
+            <div></div>
+            <div>
+              <h1>HIERROS Y MAS...</h1>
+              <h2>LO MEJOR PARA TU JUEGO</h2>
+              <button>COMPRE AHORA AQUÍ</button>
+            </div>
+            
+            </li>
+            <li id="slide5" class="slider-item">
+              <div></div>
+              <div>
+                <h1>¿QUE ESTA DE MODA?</h1>
+                <h2>LUCIR DE LA MENOR MANERA FUERA Y DENTRO DEL CAMPO</h2>
+                <a href="/" class="button-slide">COMPRE ROPA HOMBRE</a>
+                <a href="/" class="button-slide">COMPRE ROPA MUJER</a>
+              </div>
+            </li>
+            <li id="slide6" class="slider-item">
+              <div></div>
+              <div>
+                <h1>PELOTAS</h1>
+                <h2>LAS MAS ELEGIDAS POR LOS PROFESIONALES DEL PGA TOUR</h2>
+                <button type="button">COMPRE AHORA AQUÍ</button>
+              </div>
+            </li>
+        </ul>
+        <ul class="menu-de-a">
+          <li><a id="slide_1" class="slider-item active" href="#" onclick="mostrarSlide(1)"></a></li>
+          <li><a id="slide_2" class="slider-item" href="#" onclick="mostrarSlide(2)"></a></li>
+          <li><a id="slide_3" class="slider-item" href="#" onclick="mostrarSlide(3)"></a></li>
+          <li><a id="slide_4" class="slider-item" href="#" onclick="mostrarSlide(4)"></a></li>
+          <li><a id="slide_5" class="slider-item" href="#" onclick="mostrarSlide(5)"></a></li>
+          <li><a id="slide_6" class="slider-item" href="#" onclick="mostrarSlide(6)"></a></li>
+        </ul>
+        <span class="fa fa-chevron-right" onclick="mostrarSlide(0)"></span>
+      </div>
+   </div>
+   <section class="productos-nuevos">
+   <div class="palos-titleist">
+   <img src="/img/titleistpalos.jpeg" alt="New release titleist irons">
+   <h4>PEDILOS HOY</h4>
+   <h5>LANZAMIENTO 10/09/2022</h5>
+   </div>
+   <div class="bushnells">
+   <img src="/img/bushnell-golf.webp" alt="Bushnells Rangefinders">
+   <h4>AHORRA $9.999</h4>
+   <h5>BUSHNELL V5 RANGEFINDERS</h5>
+   </div>
+   <div class="callaway-coleccion">
+     <img src="/img/golf-1-1.jpeg" alt="">
+    <h4>NUEVA COLLECCION CALLAWAY</h4>
+    <h5>PEDILOS HOY</h5>
+    <h6>LANZAMIENTO 7/10/2022</h6>
+   </div>
+   <div class="clases-golf">
+   <img src="/img/gold-2-1.webp" alt="">
+   <h4>NUEVO PAQUETE CLASES</h4>
+   <h5>PERSONALIZADAS</h5>
+   <h6>GRUPALES</h6>
+   </div>
+   </section>
+   
+   <div class="suscripcion-home">
+   <h4>SUBSCRIBETE AL NEWSLETTER</h4>
+   <div class="nombre-a-sus">
+     <label for="nombreapellido">Nombre y apellido</label>
+     <input type="text" name="nombreapellido" maxlength="200" required>
+   </div>
+   <div class="email-sus">
+     <label for="email-subscripcion">EMAIL</label>
+     <input type="email" name="email-subscripcion" maxlength="200" required >
+   </div>
+   <div class="enviar-sus">
+     <button type="submit" id="suscripcion">ENVIAR</button>
+   </div>
+   </div>
+   
+   
+   
+   <div class="bloques-productos">
+   <div class="indumetaria-home">
+     <img src="/img/indumentaria-vestir.webp" alt="">
+     <span>INDUMENTARIA, LA MEJOR VARIEDAD DE ROPA DE HOMBRE Y MUJER PARA LUCIR DE LA MEJOR MANERA TANTO DENTRO DEL CAMPO COMO FUERA DE EL!</span>
+   </div>
+   <div class="carros-home">
+     <img src="/img/bolsas y carrosjpeg.jpeg" alt="">
+     <span> BOLSAS Y CARROS.</span>
+   
+   </div>
+   <div class="palos-home"><img src="/img/promo-palos.webp" alt="">
+     <span> GRAN VARIEDAD EN EQUIPO GOLF</span>
+   </div>
+   </div>
+   <div class="marcas">
+      <img src="/img/adidasgolf.png" width="80px" height="50px" alt="">
+     <img src="/img/callaway.png" width="80px" height="50px" alt="">
+     <img src="/img/clevelandgolf.png" width="80px" height="50px" alt="">
+     <img src="/img/eccogolf.png" width="80px" height="50px" alt="">
+     <img src="/img/footjoy.png" width="80px" height="50px" alt="">
+     <img src="/img/golfpride.png" width="80px" height="50px" alt="">
+     <img src="/img/nikegolf.png" width="80px" height="50px" alt="">
+     <img src="/img/ping.png"width="80px" height="50px"  alt="">
+     <img src="/img/titleist.png" width="80px" height="50px" alt="">
+     <img src="/img/taylormadegolf.png" width="80px" height="50px" alt="">
+     <img src="/img/undergolf.jpg" width="80px" height="50px" alt="">
+   </div>
+   <div class="final-home"></div>
+   
+   </main>
+
+<%- include('./partials/footer.ejs')  %>
+
+
+
+</body>
+</html>
