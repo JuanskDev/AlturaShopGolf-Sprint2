@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <%- include('./partials/head.ejs')  %>
+    <link rel="stylesheet" href="/css/bolsas.css"/>
+  </head>
+ 
+<body class="bolsas" >
+
+  <%- include('./partials/header.ejs')  %>     
+
+
+<main>
+ 
+    <h1>BOLSAS DE GOLF</h1>
+
+    <div class="resultado-busqueda">
+      <h2>8 Resultados</h2>
+      <div class="ordenar-buscador">
+        <label for="buscador">Ordenar por</label>
+        <select class="select-buscador" name="buscador" id="">
+          <option value="++">De mas baratos a mas caros</option>
+          <option value="--">De mas caros a mas baratos</option>
+          <option value="top">Mas vendidos</option>
+          <option value="moda">Moda del momento</option>
+        </select>
+      </div>
+    </div>
+    <hr class="hr-1">
+
+    <div class="resultado-busqueda">
+     
+        <ul class="resultado-productos">
+          
+            <li class="producto-bolsas-lista">
+              <img src="/img/bolsas-10.webp" alt="">
+              <div class="tamaño-hr">
+                  <h6>CALLAWAY</h6>
+                  <p>Chev 14 Women's Cart Bag - Color: (Pink/Black)</p>
+                  <h5><span class="span-3">$47.670</span></h5>
+              </div>
+              
+          </li>
+
+          <li class="producto-bolsas-lista">
+              <img src="/img/bolsas-6.webp" alt="">
+              <div class="tamaño-hr">
+              <h6>TAYLORMADE</h6>
+              <p>Select Cart Bag -Color: (Black) </p>
+              <h5><span class="span-1">$58.860</span><span class="span-3">$48.266</span></h5>
+              <p class="p-descuento">Ahorra 18%</p>
+              </div>
+              
+          </li>
+
+          <li class="producto-bolsas-lista">
+              <img src="/img/bolsas-24.webp" alt="">
+              <div class="tamaño-hr">
+              <h6>SRIXON</h6>
+              <p>Z85 Stand Bag- Color: (Black)</p>
+              <h5></span><span class="span-3">$58.690</span></h5>
+              </div>
+              
+          </li>
+
+          <li class="producto-bolsas-lista">
+              <img src="/img/bolsas-26.webp" alt="">
+              <div class="tamaño-hr">
+              <h6>TITLEIST</h6>
+              <p> Cart Bag - Color:(Grey/Orange)</p>
+              <h5><span class="span-3">$58.450</span></h5>
+              </div>
+              
+          </li>
+
+          <li class="producto-bolsas-lista">
+              <img src="/img/bolsas-17.webp" alt="">
+              <div class="tamaño-hr">
+              <h6>PING</h6>
+              <p>Stand Bag - Color:(Red/Blue)</p>
+              <h5><span class="span-3">$49.000</span></h5>
+              </div>
+          </li>
+
+          <li class="producto-bolsas-lista">
+              <img src="/img/bolsas-7.webp" alt="">
+              <div class="tamaño-hr">
+              <h6>PING</h6>
+              <p>Stand Bag - USA ARMY</p>
+              <h5><span class="span-1">$41.000</span><span class="span-2">$36.900</span></h5>
+              <p class="p-descuento">Ahorra 10%</p>
+              </div>
+              
+          </li>
+
+          <li class="producto-bolsas-lista">
+            <img src="/img/carro-2.webp" alt="">
+            <div class="tamaño-hr">
+            <h6>BAG BOY</h6>
+            <p>EZ Fold 360 Wheel Push Cart</p>
+            <h5><span class="span-3">$49.990</span></h5>
+            </div>
+            
+        </li>
+
+        <li class="producto-bolsas-lista">
+            <img src="/img/carro-5.webp" alt="">
+            <div class="tamaño-hr">
+            <h6>CALLAWAY</h6>
+            <p>Fairway 14 2022 Stand Bag</p>
+            <h5><span class="span-3">$51.500</span></h5>
+            </div>
+        
+        </li>
+      </ul>
+    </div>
+
+</main>
+
+<%- include('./partials/footer.ejs')  %>
+
+
+
+</body>
+</html>

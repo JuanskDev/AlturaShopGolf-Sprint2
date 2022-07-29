@@ -211,17 +211,16 @@ font-family: sans-serif;
 }
 
 #juan-slider ul.slider li a.button-slide {
-  display: inline-block;
-  font-family: oswald;
-  color: white;
-  background-color: blue;
-  border: none;
-  border-radius: 15px;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 15px 30px 15px 30px;
-  margin-top: 15px;
-  cursor: pointer;
+    display: inline-block;
+    font-family: oswald;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
 }
 
 #slide1 {
@@ -244,6 +243,51 @@ font-family: sans-serif;
   background: white url("/img/atajo-pelotas.webp") center center no-repeat;
 }
 
+#slide1 div h2{
+  color: white;
+  font-family: oswald;
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 30px;
+  text-shadow: 4px 4px 2px rgb(0 0 0 / 60%);
+  }
+
+#slide1 div a.button-slide{
+  margin-top: 25%;
+}
+#slide2 div a.button-slide {
+  margin-top: 10%;
+}
+#slide3 div a.button-slide {
+  margin-top: 28%;
+}
+#slide4 div a.button-slide {
+  margin-top: 25%;
+  display: inline-block;
+    font-family: oswald;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+
+#slide5 div a.button-slide {
+  margin-top: 25%;
+}
+#slide6 div a.button-slide {
+  margin-top: 25%;
+}
+
+
+#slide3 div {
+  width: 100%!important;
+}
+
+
  #juan-slider .menu-de-a {
   text-align: center;
   margin: 20px;
@@ -251,7 +295,7 @@ font-family: sans-serif;
 
 #juan-slider span.fa {
   position: absolute;
-  color: #dc3b41;
+  color: white;
   font-size: 20px;
   top: 45%;
   cursor: pointer;
@@ -260,7 +304,7 @@ font-family: sans-serif;
 
 #juan-slider span.fa:hover {
   font-weight: bold;
-  border: 1px solid #dc3b41;
+  border: 1px solid white;
 }
 
 #juan-slider span.fa.fa-chevron-left {

@@ -26,11 +26,11 @@ function mostrarSlide(slideIndex) {
 }
 
 let interval = 1;
-setInterval(function(){
-    if(interval >= 6) interval = 0;
-    interval++;
-    mostrarSlide(interval);
-}, 5000);
+// setInterval(function(){
+//     if(interval >= 6) interval = 0;
+//     interval++;
+//     mostrarSlide(interval);
+// }, 7000);
 
 let submenuSelected = '';
 function mostrarMenu(menu) {

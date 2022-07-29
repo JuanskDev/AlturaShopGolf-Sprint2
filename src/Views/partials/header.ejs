@@ -1,8 +1,10 @@
 <html lang="en">
+
 <head>
-   <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/header.css">
   <title>Document</title>
 </head>
+
 <body class="body-header">
   <header>
     <div class="btn-menu">
@@ -12,8 +14,8 @@
     </div>
     <nav id="menu-mobile" class="ocultar">
       <ul>
-        <li><a href="">INICIO</a></li> 
-        
+        <li><a href="">INICIO</a></li>
+
         <li>
           <a href="">PRODUCTOS</a>
           <ul>
@@ -32,49 +34,49 @@
               </ul>
             </li>
           </ul>
-         
-  
-          <li><a href="">PELOTAS</a></li>
-  
-          <li>
-            <a href="">TECNOLOGIA</a>
-            <ul>
-              <li><a href="">GPS</a></li>
-              <li><a href="">SMARTWACHT</a></li>
-              <li><a href="">TELEMETROS</a></li>
-            </ul>
-          </li>
-          
-          <li>
-            <a href="">VESTIR</a>
-            <ul class="ocultar">
-              <li><a href="">ROPA DE HOMBRE</a></li>
-              <li><a href="">
-                ROPA DE MUJER</a></li>
-            </ul>
-            <li><a href="">ZAPATOS</a></li>
-          </li>
-        </ul>
-        </li>
-        
+
+
+        <li><a href="">PELOTAS</a></li>
+
         <li>
-          <a href="">CAMPOS</a>
-          <ul class="ocultar">
-            <li><a href="">ESTANCIAS DE CAFAYATE GOLF CLUB</a></li>
-            <li><a href="">TERMAS DE RIO HONDO GOLF CLUB</a></li>
-            <li><a href="">CARILO GOLF CLUB</a></li>
-            <li><a href="">LLAO LLAO GOLF CLUB</a></li>
-            <li><a href="">VILLA ALLENDE GOLF CLUB</a></li>
+          <a href="">TECNOLOGIA</a>
+          <ul>
+            <li><a href="">GPS</a></li>
+            <li><a href="">SMARTWACHT</a></li>
+            <li><a href="">TELEMETROS</a></li>
           </ul>
         </li>
+
+        <li>
+          <a href="">VESTIR</a>
+          <ul class="ocultar">
+            <li><a href="">ROPA DE HOMBRE</a></li>
+            <li><a href="">
+                ROPA DE MUJER</a></li>
+          </ul>
+        <li><a href="">ZAPATOS</a></li>
+        </li>
+      </ul>
+      </li>
+
+      <li>
+        <a href="">CAMPOS</a>
+        <ul class="ocultar">
+          <li><a href="">ESTANCIAS DE CAFAYATE GOLF CLUB</a></li>
+          <li><a href="">TERMAS DE RIO HONDO GOLF CLUB</a></li>
+          <li><a href="">CARILO GOLF CLUB</a></li>
+          <li><a href="">LLAO LLAO GOLF CLUB</a></li>
+          <li><a href="">VILLA ALLENDE GOLF CLUB</a></li>
+        </ul>
+      </li>
     </nav>
     <div class="logo item-flex">
-      <p><a href="/"><img src="/Img/logo-header.png" alt="Golf de Altura Store"/></a></p>
+      <p><a href="/"><img src="/Img/logo-header.png" alt="Golf de Altura Store" /></a></p>
     </div>
     <div class="iconos-compra-location">
-  
+
       <span class="location-icon"><i class="fa fa-location-dot"></i> </span>
-      <span><i class ="fa fa-cart-shopping"></i></span>  
+      <span><i class="fa fa-cart-shopping"></i></span>
     </div>
     <div class="buscador item-flex">
       <input type="text" placeholder="¿Que podemos ayudarte a encontrar?">
@@ -83,57 +85,96 @@
       </div>
     </div>
     <div class="Compra-item-flex">
-        <p>Devoluciones gratuitas y garantía en la devolución de su dinero</p>
-      </div>
-      
+      <p>Devoluciones gratuitas y garantía en la devolución de su dinero</p>
     </div>
 
-    <nav class="nav-full-screen"> 
-        <div>
-          <a href="/productos/accesorios"> ACCESORIOS</a>
+    <nav class="nav-full-screen">
+      <div>
+        <a href="#" onclick="mostrarMenu('nav-accesorios')"> ACCESORIOS</a>
+        <div id="nav-accesorios" class="nav-submenu">
+          <ul>
+            <li><a href="/productos/accesorios/gorras"> GORRAS</a></li>
+            <li><a href="/productos/accesorios/guantes"> GUANTES</a></li>
+            <li><a href="/productos/accesorios/fundas"> FUNDAS</a></li>
+            <li><a href="/productos/accesorios/herramientas"> HERRAMIENTAS</a></li>
+            <li><a href="/productos/accesorios/tees"> TEES</a></li>
+            <li><a href="/productos/accesorios/toallas"> TOALLAS</a></li>
+            <li><a href="/productos/accesorios/paraguas"> PARAGUAS</a></li>
+          </ul>
         </div>
-        <div>
-          <a href="#" onclick="mostrarMenu('nav-bolsas')"> BOLSAS</a>
-          <div id="nav-bolsas" class="nav-submenu">
-            <ul>
-              <li>
-                <a href="/productos/bolsas"> BOLSA </a>
-                <a href="/productos/bolsas"> CARROS</a>
-              </li>
-            </ul>
-          </div>
+      </div>
+      <div>
+        <a href="#" onclick="mostrarMenu('nav-bolsas-carros')"> BOLSAS-CARROS</a>
+        <div id="nav-bolsas-carros" class="nav-submenu">
+          <ul>
+            <li><a href="/productos/bolsas-carros"> TODO </a></li>
+            <li><a href="/productos/bolsas"> BOLSAS</a></li>
+            <li><a href="/productos/carros"> CARROS</a></li>
+          </ul>
         </div>
+      </div>
         <div>
-          <a href="#"> INDUMENTARIA</a>
-        </div>
-        <div>
-          <a href="#" onclick="mostrarMenu('nav-palos')"> PALOS</a>
+          <a href="#" onclick="mostrarMenu('nav-palos')"> EQUIPO</a>
           <div id="nav-palos" class="nav-submenu">
             <ul>
               <li>
-                <a href="/productos/palos"> DRIVE</a>
-                <a href="/productos/palos"> MADERAS</a>
-                <a href="/productos/palos"> HIBRIDO</a>
-                <a href="/productos/palos"> HIERROS</a>
-                <a href="/productos/palos"> WEDGES</a>
-                <a href="/productos/palos"> PUTTERS</a>
+                <a href="/productos/palos"> PALOS</a>
+              </li>
+              <li>
+                <a href="/productos/palos/drive"> DRIVE</a>
+              </li>
+              <li>
+                <a href="/productos/palos/maderas"> MADERAS</a>
+              </li>
+              <li>
+                <a href="/productos/palos/hibridos"> HIBRIDO</a>
+              </li>
+              <li>
+                <a href="/productos/palos/hierros"> HIERROS</a>
+              </li>
+              <li>
+                <a href="/productos/palos/wedges"> WEDGES</a>
+              </li>
+              <li>
+                <a href="/productos/palos/putters"> PUTTERS</a>
               </li>
             </ul>
           </div>
         </div>
         <div>
-          <a href="#"> PELOTAS</a>
+          <a href="/productos/pelotas"> PELOTAS</a>
         </div>
         <div>
-          <a href="#"> VESTIR</a>
+          <a href="#" onclick="mostrarMenu('nav-vestir')"> VESTIR</a>
+          <div id="nav-vestir" class="nav-submenu">
+            <ul>
+              <li>
+                <a href="/productos/vestir/ropa-de-hombres"> ROPA DE HOMBRE</a>
+              </li>
+              <li>
+                <a href="/productos/vestir/ropa-de-mujer"> ROPA DE MUJER</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div>
-          <a href="/productos/tecnologia"> TECNOLOGIA</a>
+          <a href="#" onclick="mostrarMenu('nav-tecnologia')"> TECNOLOGIA</a>
+          <div id="nav-tecnologia" class="nav-submenu">
+            <ul>
+              <li>
+                <a href="/productos/tecnologia/gps"> GPS</a>
+                <a href="/productos/tecnologia/simuladores"> SIMULADORES</a>
+                <a href="/productos/tecnologia/smartwacht"> SMARTWACHT</a>
+                <a href="/productos/tecnologia/telemetros"> TELEMETROS</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div>
           <a href="/productos/zapatos"> ZAPATOS</a>
         </div>
     </nav>
-</header>
+  </header>
 </body>
+
 </html>
