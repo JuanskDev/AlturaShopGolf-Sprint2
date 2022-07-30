@@ -17,23 +17,23 @@ app.get('/productos/accesorios' , (req , res) => {
 })
 //_______________________GUANTES____________________________//
 app.get('/productos/guantes' , (req , res) => {
-    res.render(path.join(__dirname , 'src/views/accesorios/guantes.ejs'))
+    res.render(path.join(__dirname , 'src/views/guantes.ejs'))
 })
 //_______________________GORRAS_____________________________//
-app.get('/productos/gorras' , (req , res) => {
-    res.render(path.join(__dirname , 'src/views/accesorios/gorras.ejs'))
+app.get('/productos/accesorios/gorras' , (req , res) => {
+    res.render(path.join(__dirname , 'src/views/gorras.ejs'))
 })
 //_______________________HERRAMIENTAS_____________________________//
 app.get('/productos/herramientas' , (req , res) => {
-    res.render(path.join(__dirname , 'src/views/accesorios/herramientas.ejs'))
+    res.render(path.join(__dirname , 'src/views/herramientas.ejs'))
 })
 //_______________________TEES_____________________________//
 app.get('/productos/tees' , (req , res) => {
-    res.render(path.join(__dirname , 'src/views/accesorios/tees.ejs'))
+    res.render(path.join(__dirname , 'src/views/tees.ejs'))
 })
 //_______________________TOALLAS_____________________________//
 app.get('/productos/toallas' , (req , res) => {
-    res.render(path.join(__dirname , 'src/views/accesorios/toallas.ejs'))
+    res.render(path.join(__dirname , 'src/views/toallas.ejs'))
 })
 //_______________________PARAGUAS_____________________________//
 app.get('/productos/paraguas' , (req , res) => {

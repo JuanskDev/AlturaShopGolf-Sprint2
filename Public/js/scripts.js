@@ -34,7 +34,7 @@ if(slider != null) {
         if(interval >= 6) interval = 0;
         interval++;
         mostrarSlide(interval);
-    }, 5000);
+    }, 7000);
 }
 
 function mostrarMenu(menu) {
