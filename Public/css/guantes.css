@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+  }
+
+  body.guantes h1 {
+    text-align: center;
+    margin: auto;
+  }
+  body.guantes h2 {
+    opacity: 0.6;
+    font-family: 'Oswald';
+    color: red;
+    font-size: 30px;
+  }
+  body.guantes h4 {
+    font-family: 'Oswald';
+    color: red;
+    font-size: 15px;
+    float: left;
+  }
+
+  body.guantes .resultado-busqueda {
+    width: 90%;
+    margin: auto;
+    padding: 20px 5px;
+    position: relative;
+  }
+  body.guantes li.producto-guantes-lista .nuevo{
+    font-size: 9px;
+    width: 45px;
+    border-radius: 45px;
+    background-color: blue;
+    color: white;
+    font-family: 'Oswald';
+  }
+
+  body.guantes .resultado-busqueda h2 {
+    text-align: right;
+  }
+
+  body.guantes .ordenar-buscador {
+    position: absolute;
+    right: 2%;
+    top: 100%; 
+  }
+
+  .select-buscador {
+    max-width: 17px;
+  }
+
+  .hr-1 {
+    margin-top: 50px;
+  }
+
+  body.guantes ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+
+  body.guantes li.producto-guantes-lista {
+    width: 47%;
+    padding: 10px 0;
+    margin: 0 1.5% 20px;
+    background: #fff;
+    max-width: 100%;
+  }
+
+  body.guantes li.producto-guantes-lista img {
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+
+  div.tamaño-hr {
+    height: 35%;
+  }
+
+  body.guantes li.producto-guantes-lista h6{
+    text-align: center;
+  }
+
+  body.guantes li.producto-guantes-lista p {
+    text-align: center;
+    font-size: 13px;
+    margin: 5px 0 8px;
+    line-height: 20px;
+  }
+
+  body.guantes li.producto-guantes-lista h5 {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-evenly;
+  }
+
+  body.bolsas li.producto-bolsas-lista h5 .span-1 {
+    text-decoration: line-through;
+  }
+
+  body.guantes li.producto-guantes-lista h5 .span-3 {
+    justify-content: center;
+  }
+
+  body.guantes li.producto-guantes-lista .p-descuento {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  @media (min-width: 420px) {
+
+    body.guantes h1 {
+        text-align: left;
+        margin-left: 40px;
+    }
+  
+    body.guantes .resultado-busqueda h2 {
+      text-align: left;
+  }
+
+}
+
+@media (min-width: 790px) {
+
+    div.tamano-hr {
+        margin-bottom: 40px;
+    }
+
+    body.guantes ul {
+        justify-content: space-around;
+    }  
+
+    body.bolsas li.producto-bolsas-lista {
+        width: 27%;
+    }
+
+}
+
+@media (min-width: 790px) {
+
+body.guantes li.producto-guantes-lista img {
+    display: block;
+    margin: auto;
+}
+}
