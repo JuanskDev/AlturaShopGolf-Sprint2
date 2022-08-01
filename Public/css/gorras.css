@@ -64,8 +64,9 @@ div.tamaño-hr {
 
 body.gorras li.producto-gorras-lista h6{
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   font-family: oswald;
+  color: rgba(41, 41, 196, 0.892);
 }
 /* .img:hover{
   border-radius: 38px;

@@ -64,6 +64,9 @@
 
   body.palos li.producto-palos-lista h6{
     text-align: center;
+    font-size: 15px;
+    font-family: oswald;
+    color: rgba(41, 41, 196, 0.892);
   }
 
   body.palos li.producto-palos-lista p {

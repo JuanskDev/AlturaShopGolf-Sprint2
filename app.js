@@ -22,6 +22,10 @@ app.get("/productos/accesorios/guantes", (req, res) => {
 app.get("/productos/accesorios/gorras", (req, res) => {
   res.render(path.join(__dirname, "src/views/gorras.ejs"));
 });
+//_______________________FUNDAS_____________________________//
+app.get("/productos/accesorios/fundas", (req, res) => {
+  res.render(path.join(__dirname, "src/views/fundas.ejs"));
+});
 //_______________________HERRAMIENTAS_____________________________//
 app.get("/productos/accesorios/herramientas", (req, res) => {
   res.render(path.join(__dirname, "src/views/herramientas.ejs"));
@@ -36,7 +40,7 @@ app.get("/productos/accesorios/toallas", (req, res) => {
 });
 //_______________________PARAGUAS_____________________________//
 app.get("/productos/accesorios/paraguas", (req, res) => {
-  res.render(path.join(__dirname, "src/views/accesorios/paraguas.ejs"));
+  res.render(path.join(__dirname, "src/views/paraguas.ejs"));
 });
 //__________________________________________________________________//
 //_______________________BOLSAS-CARROS_____________________________//
@@ -57,27 +61,27 @@ app.get("/productos/palos", (req, res) => {
   res.render(path.join(__dirname, "src/views/palos.ejs"));
 });
 //_______________________DRIVE_____________________________//
-app.get("/productos/drive", (req, res) => {
+app.get("/productos/palos/drive", (req, res) => {
   res.render(path.join(__dirname, "src/views/drive.ejs"));
 });
 //_______________________MADERAS_____________________________//
-app.get("/productos/maderas", (req, res) => {
+app.get("/productos/palos/maderas", (req, res) => {
   res.render(path.join(__dirname, "src/views/maderas.ejs"));
 });
 //_______________________HIBRIDOS_____________________________//
-app.get("/productos/hibridos", (req, res) => {
+app.get("/productos/palos/hibridos", (req, res) => {
   res.render(path.join(__dirname, "src/views/hibridos.ejs"));
 });
 //_______________________HIERROS_____________________________//
-app.get("/productos/hierros", (req, res) => {
+app.get("/productos/palos/hierros", (req, res) => {
   res.render(path.join(__dirname, "src/views/hierros.ejs"));
 });
 //_______________________WEDGES_____________________________//
-app.get("/productos/wedges", (req, res) => {
+app.get("/productos/palos/wedges", (req, res) => {
   res.render(path.join(__dirname, "src/views/wedges.ejs"));
 });
 //_______________________PUTTERS_____________________________//
-app.get("/productos/putters", (req, res) => {
+app.get("/productos/palos/putters", (req, res) => {
   res.render(path.join(__dirname, "src/views/putters.ejs"));
 });
 //_______________________PELOTAS_____________________________//
